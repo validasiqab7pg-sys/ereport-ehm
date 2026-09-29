@@ -1,0 +1,32 @@
+CRITICAL - 2024-03-19 07:02:30 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\qualityhome\\app\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->Validation()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\qualityhome\\public\\index.php')
+CRITICAL - 2024-03-19 07:05:51 --> Undefined variable $site
+in APPPATH\Views\Login\Index.php on line 232.
+ 1 APPPATH\Views\Login\Index.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $site', 'C:\\Users\\pwryuwan\\Pictures\\qualityhome\\app\\Views\\Login\\Index.php', 232)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\qualityhome\\app\\Views\\Login\\Index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Login/Index', [], true)
+ 5 APPPATH\Controllers\Login.php(18): view('Login/Index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\qualityhome\\public\\index.php')
+CRITICAL - 2024-03-19 07:05:55 --> Undefined variable $site
+in APPPATH\Views\Login\Index.php on line 232.
+ 1 APPPATH\Views\Login\Index.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $site', 'C:\\Users\\pwryuwan\\Pictures\\qualityhome\\app\\Views\\Login\\Index.php', 232)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\qualityhome\\app\\Views\\Login\\Index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Login/Index', [], true)
+ 5 APPPATH\Controllers\Login.php(18): view('Login/Index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\qualityhome\\public\\index.php')

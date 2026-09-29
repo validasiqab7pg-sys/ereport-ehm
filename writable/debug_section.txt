@@ -1,0 +1,4 @@
+site        : [Cikarang]
+jenis_samp  : [Air PAM/City Water/Soft Water - Mingguan]
+kategoriLap : [Air PAM/City Water/Soft Water]
+secConf null? : TIDAK

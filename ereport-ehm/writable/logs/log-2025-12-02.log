@@ -1,0 +1,3 @@
+CRITICAL - 2025-12-02 04:16:07 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Router\RouteCollection.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

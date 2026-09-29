@@ -1,0 +1,1112 @@
+INFO - 2025-07-27 08:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 08:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:29:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:30:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:30:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:30:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:30:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:30:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:30:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:35:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:35:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:35:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:35:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:35:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:35:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:35:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:35:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:35:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:35:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:35:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:35:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:36:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:36:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:36:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:36:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:36:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:36:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:36:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:39:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:40:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:40:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:40:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:40:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:40:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:40:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:40:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:40:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:40:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:40:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:40:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:40:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:40:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:40:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:40:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:40:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:40:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:40:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:40:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:40:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:40:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:40:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:40:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:41:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:41:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:41:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:41:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:41:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:41:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:41:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:41:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:41:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:41:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:41:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:45:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:45:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:45:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:45:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:45:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:45:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:46:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:46:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 10:46:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:46:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:46:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 10:46:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 10:46:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 10:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 10:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:01:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:01:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:01:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:01:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:01:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:01:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:01:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:01:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:01:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:01:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:01:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:01:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:01:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:02:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:02:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:02:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:02:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:02:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:02:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:02:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:02:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:02:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:02:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:02:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:02:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:02:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:02:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:02:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:02:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:02:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:02:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:02:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:02:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:02:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:02:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:02:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:02:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:02:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:02:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:02:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:02:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:03:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:03:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:03:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:03:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:03:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:03:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:03:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:03:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:03:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:03:13 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:03:13 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:03:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:03:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:03:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:03:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:03:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:03:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:03:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:03:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:03:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:03:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:03:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:03:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:03:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:03:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:03:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:03:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:03:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:03:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-27 11:03:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:03:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('bootstrap.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-27 11:03:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-27 11:03:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Suhu.php on line 162.
+ 1 APPPATH\Controllers\Suhu.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Controllers\\Suhu.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Suhu->AddSuhu('jquery.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Suhu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-27 11:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 11:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-27 13:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

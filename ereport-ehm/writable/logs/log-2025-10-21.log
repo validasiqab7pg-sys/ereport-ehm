@@ -1,0 +1,15 @@
+CRITICAL - 2025-10-21 05:42:02 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Toolbar\Collectors\Timers.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-10-21 05:42:09 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Autoloader\Autoloader.php on line 289.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-10-21 05:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-21 05:43:30 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Autoloader\Autoloader.php on line 248.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-10-21 05:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-21 05:47:51 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Autoloader\Autoloader.php on line 248.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-10-21 05:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

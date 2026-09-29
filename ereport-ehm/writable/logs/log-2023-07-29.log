@@ -1,0 +1,42 @@
+CRITICAL - 2023-07-29 16:06:39 --> Undefined constant "Config\routes"
+in APPPATH\Config\Routes.php on line 33.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Azhar\\Documents\\qualityhome\\public\\index.php')
+CRITICAL - 2023-07-29 16:07:04 --> Undefined constant "Config\routes"
+in APPPATH\Config\Routes.php on line 33.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Azhar\\Documents\\qualityhome\\public\\index.php')
+CRITICAL - 2023-07-29 16:11:14 --> Invalid file: "Login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Login', [], true)
+ 3 APPPATH\Controllers\Login.php(12): view('Login')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Azhar\\Documents\\qualityhome\\public\\index.php')
+CRITICAL - 2023-07-29 16:36:43 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH\Views\parsial\sidebar.php on line 49.
+ 1 APPPATH\Views\parsial\sidebar.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$uri', 'C:\\Users\\Azhar\\Documents\\qualityhome\\app\\Views\\parsial\\sidebar.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\Azhar\\Documents\\qualityhome\\app\\Views\\parsial\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('parsial/sidebar', [], true)
+ 5 APPPATH\Views\QualityAssurance\QualityCompliance.php(1): view('parsial/sidebar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\Azhar\\Documents\\qualityhome\\app\\Views\\QualityAssurance\\QualityCompliance.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('QualityAssurance/QualityCompliance', [], true)
+ 9 APPPATH\Controllers\Home.php(12): view('QualityAssurance/QualityCompliance')
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Azhar\\Documents\\qualityhome\\public\\index.php')

@@ -1,0 +1,127 @@
+INFO - 2025-04-30 02:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 02:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 02:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 02:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 02:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 02:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 02:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-30 09:52:07 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-30 05:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 05:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 05:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 05:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 05:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 05:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 05:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 05:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 05:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 05:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 05:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 05:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-30 12:24:21 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-30 05:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-30 12:31:22 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-30 05:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 05:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-30 12:32:17 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-30 05:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-30 12:32:20 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-30 05:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-30 12:32:42 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-30 05:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-30 05:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-30 12:33:33 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-30 05:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-30 12:33:57 --> Undefined variable $List_Lokasi_Sampling
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 365.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $List_Lokasi_Sampling', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 365)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-30 05:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-30 12:34:00 --> Undefined variable $List_Lokasi_Sampling
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 365.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $List_Lokasi_Sampling', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 365)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

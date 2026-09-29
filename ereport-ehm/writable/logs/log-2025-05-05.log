@@ -1,0 +1,1574 @@
+INFO - 2025-05-05 00:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 00:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 00:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 00:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 00:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 00:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 00:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:53:13 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 00:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:55:34 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 407.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(407): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 407)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 00:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:55:35 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 407.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(407): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 407)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 00:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 00:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:57:36 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:06:01 --> Undefined array key "tanggal_dibersihkan"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 369.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(369): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_dibersihkan"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 369)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:06:06 --> Undefined array key "tanggal_dibersihkan"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 369.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(369): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_dibersihkan"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 369)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:06:24 --> Undefined array key "tanggal_dibersihkan"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 369.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(369): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_dibersihkan"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 369)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:06:25 --> Undefined array key "tanggal_dibersihkan"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 369.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(369): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_dibersihkan"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 369)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:08:09 --> Undefined array key "lokasi_sampling"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 368.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(368): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasi_sampling"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 368)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:08:22 --> Undefined array key "lokasi_sampling"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 368.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(368): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasi_sampling"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 368)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:08:22 --> Undefined array key "lokasi_sampling"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 368.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(368): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasi_sampling"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 368)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:08:30 --> Undefined array key "tanggal_dibersihkan"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 369.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(369): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_dibersihkan"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 369)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:08:47 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-05 01:12:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+AND mds.id IN (
+    SELECT MAX(mds2.id)
+    FROM master_data_swab mds2
+...' at line 6 in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n    SELECT md...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n    SELECT md...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n    SELECT md...')
+#3 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('\r\n    SELECT md...', Array)
+#4 C:\xampp\htdocs\e-reportruangan\app\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+#5 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-05 01:12:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+AND mds.id IN (
+    SELECT MAX(mds2.id)
+    FROM master_data_swab mds2
+...' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+    SELECT mds.*
+FROM master_data_swab mds
+INNER JOIN data_awal_swab das
+    ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat
+    AND mds.kategori = das.kategori
+WHERE das.id = ?
+AND mds.id IN (
+    SELECT MAX(mds2.id)
+    FROM master_data_swab mds2
+    INNER JOIN data_awal_swab das2
+        ON mds2.nama_mesin_personil_alat = das2.nama_mesin_personil_alat
+        AND mds2.kategori = das2.kategori
+    WHERE das2.id = ?
+    GROUP BY mds2.lokasi_sampling
+)
+
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+    SELECT mds.*
+FROM master_data_swab mds
+INNER JOIN data_awal_swab das
+    ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat
+    AND mds.kategori = das.kategori
+WHERE das.id = ?
+AND mds.id IN (
+    SELECT MAX(mds2.id)
+    FROM master_data_swab mds2
+    INNER JOIN data_awal_swab das2
+        ON mds2.nama_mesin_personil_alat = das2.nama_mesin_personil_alat
+        AND mds2.kategori = das2.kategori
+    WHERE das2.id = ?
+    GROUP BY mds2.lokasi_sampling
+)
+
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+    SELECT mds.*
+FROM master_data_swab mds
+INNER JOIN data_awal_swab das
+    ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat
+    AND mds.kategori = das.kategori
+WHERE das.id = ?
+AND mds.id IN (
+    SELECT MAX(mds2.id)
+    FROM master_data_swab mds2
+    INNER JOIN data_awal_swab das2
+        ON mds2.nama_mesin_personil_alat = das2.nama_mesin_personil_alat
+        AND mds2.kategori = das2.kategori
+    WHERE das2.id = ?
+    GROUP BY mds2.lokasi_sampling
+)
+
+')
+ 4 APPPATH\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('
+    SELECT mds.*
+FROM master_data_swab mds
+INNER JOIN data_awal_swab das
+    ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat
+    AND mds.kategori = das.kategori
+WHERE das.id = ?
+AND mds.id IN (
+    SELECT MAX(mds2.id)
+    FROM master_data_swab mds2
+    INNER JOIN data_awal_swab das2
+        ON mds2.nama_mesin_personil_alat = das2.nama_mesin_personil_alat
+        AND mds2.kategori = das2.kategori
+    WHERE das2.id = ?
+    GROUP BY mds2.lokasi_sampling
+)
+
+', [...])
+ 5 APPPATH\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-05 01:12:42 --> mysqli_sql_exception: Duplicate column name 'lokasi_sampling' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n    SELECT *\r...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n    SELECT *\r...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n    SELECT *\r...')
+#3 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('\r\n    SELECT *\r...', Array)
+#4 C:\xampp\htdocs\e-reportruangan\app\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+#5 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-05 01:12:42 --> Duplicate column name 'lokasi_sampling'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+    SELECT *
+FROM (
+    SELECT DISTINCT mds.lokasi_sampling, mds.*
+    FROM master_data_swab mds
+    INNER JOIN data_awal_swab das
+        ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat
+        AND mds.kategori = das.kategori
+    WHERE das.id = \'21\'
+) AS subquery
+
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+    SELECT *
+FROM (
+    SELECT DISTINCT mds.lokasi_sampling, mds.*
+    FROM master_data_swab mds
+    INNER JOIN data_awal_swab das
+        ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat
+        AND mds.kategori = das.kategori
+    WHERE das.id = \'21\'
+) AS subquery
+
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+    SELECT *
+FROM (
+    SELECT DISTINCT mds.lokasi_sampling, mds.*
+    FROM master_data_swab mds
+    INNER JOIN data_awal_swab das
+        ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat
+        AND mds.kategori = das.kategori
+    WHERE das.id = \'21\'
+) AS subquery
+
+')
+ 4 APPPATH\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('
+    SELECT *
+FROM (
+    SELECT DISTINCT mds.lokasi_sampling, mds.*
+    FROM master_data_swab mds
+    INNER JOIN data_awal_swab das
+        ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat
+        AND mds.kategori = das.kategori
+    WHERE das.id = ?
+) AS subquery
+
+', [...])
+ 5 APPPATH\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:12:53 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:22:04 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:22:04 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 01:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:22:55 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 370.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 370)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:33:05 --> Undefined array key "editable"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 376.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(376): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "editable"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 376)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-05 01:40:08 --> syntax error, unexpected variable "$data", expecting "function" or "const"
+in APPPATH\Models\PpojSwabModel.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\e-reportruangan\\app\\Models\\PpojSwabModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PpojSwabModel')
+ 3 APPPATH\Controllers\PatogenSwab.php(65): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PpojSwabModel')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-05 01:40:48 --> mysqli_sql_exception: Unknown column 'das.id_ppoj' in 'where clause' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\e-reportruangan\app\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+#5 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-05 01:40:48 --> Unknown column 'das.id_ppoj' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_ppoj = \'21\'
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_ppoj = \'21\'
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_ppoj = \'21\'
+    ')
+ 4 APPPATH\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_ppoj = ?
+    ', [...])
+ 5 APPPATH\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-05 01:40:49 --> mysqli_sql_exception: Unknown column 'das.id_ppoj' in 'where clause' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\e-reportruangan\app\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+#5 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-05 01:40:49 --> Unknown column 'das.id_ppoj' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_ppoj = \'21\'
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_ppoj = \'21\'
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_ppoj = \'21\'
+    ')
+ 4 APPPATH\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_ppoj = ?
+    ', [...])
+ 5 APPPATH\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-05 01:41:41 --> mysqli_sql_exception: Unknown column 'ps.id_data_awal' in 'on clause' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\e-reportruangan\app\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+#5 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-05 01:41:41 --> Unknown column 'ps.id_data_awal' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_swab = \'21\'
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_swab = \'21\'
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_swab = \'21\'
+    ')
+ 4 APPPATH\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_swab = ?
+    ', [...])
+ 5 APPPATH\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-05 01:41:42 --> mysqli_sql_exception: Unknown column 'ps.id_data_awal' in 'on clause' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\e-reportruangan\app\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+#5 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-05 01:41:42 --> Unknown column 'ps.id_data_awal' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_swab = \'21\'
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_swab = \'21\'
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_swab = \'21\'
+    ')
+ 4 APPPATH\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_data_awal
+        WHERE das.id_swab = ?
+    ', [...])
+ 5 APPPATH\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-05 01:42:22 --> mysqli_sql_exception: Unknown column 'das.id_ppoj' in 'where clause' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\e-reportruangan\app\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+#5 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-05 01:42:22 --> Unknown column 'das.id_ppoj' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_swab
+        WHERE das.id_ppoj = \'21\'
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_swab
+        WHERE das.id_ppoj = \'21\'
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_swab
+        WHERE das.id_ppoj = \'21\'
+    ')
+ 4 APPPATH\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('
+        SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.keterangan,
+            das.id,
+            ps.analis,
+            ps.editable,
+            ps.approve_edit
+        FROM master_data_swab mds
+        INNER JOIN data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN patogen_swab ps 
+            ON das.id = ps.id_swab
+        WHERE das.id_ppoj = ?
+    ', [...])
+ 5 APPPATH\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 01:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:43:44 --> Undefined array key "keterangan"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 361.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 361)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-05 01:47:30 --> mysqli_sql_exception: Table 'validas1_ehm_report.patagogen_swab' doesn't exist in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n    SELECT DI...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n    SELECT DI...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n    SELECT DI...')
+#3 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('\r\n    SELECT DI...', Array)
+#4 C:\xampp\htdocs\e-reportruangan\app\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+#5 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-05 01:47:30 --> Table 'validas1_ehm_report.patagogen_swab' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+    SELECT DISTINCT mds.lokasi_sampling, das.tanggal_dibersihkan, ps.editable, ps.keterangan, ps.approve_edit FROM master_data_swab mds, patagogen_swab ps INNER JOIN data_awal_swab das ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat AND mds.kategori = das.kategori AND pas.id_Swab = das.id_swab WHERE das.id = \'21\';
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+    SELECT DISTINCT mds.lokasi_sampling, das.tanggal_dibersihkan, ps.editable, ps.keterangan, ps.approve_edit FROM master_data_swab mds, patagogen_swab ps INNER JOIN data_awal_swab das ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat AND mds.kategori = das.kategori AND pas.id_Swab = das.id_swab WHERE das.id = \'21\';
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+    SELECT DISTINCT mds.lokasi_sampling, das.tanggal_dibersihkan, ps.editable, ps.keterangan, ps.approve_edit FROM master_data_swab mds, patagogen_swab ps INNER JOIN data_awal_swab das ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat AND mds.kategori = das.kategori AND pas.id_Swab = das.id_swab WHERE das.id = \'21\';
+')
+ 4 APPPATH\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('
+    SELECT DISTINCT mds.lokasi_sampling, das.tanggal_dibersihkan, ps.editable, ps.keterangan, ps.approve_edit FROM master_data_swab mds, patagogen_swab ps INNER JOIN data_awal_swab das ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat AND mds.kategori = das.kategori AND pas.id_Swab = das.id_swab WHERE das.id = ?;
+', [...])
+ 5 APPPATH\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-05 01:47:44 --> mysqli_sql_exception: Unknown column 'mds.nama_mesin_personil_alat' in 'on clause' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n    SELECT DI...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n    SELECT DI...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n    SELECT DI...')
+#3 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('\r\n    SELECT DI...', Array)
+#4 C:\xampp\htdocs\e-reportruangan\app\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+#5 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-05 01:47:44 --> Unknown column 'mds.nama_mesin_personil_alat' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+    SELECT DISTINCT mds.lokasi_sampling, das.tanggal_dibersihkan, ps.editable, ps.keterangan, ps.approve_edit FROM master_data_swab mds, patogen_swab ps INNER JOIN data_awal_swab das ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat AND mds.kategori = das.kategori AND pas.id_Swab = das.id_swab WHERE das.id = \'21\';
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+    SELECT DISTINCT mds.lokasi_sampling, das.tanggal_dibersihkan, ps.editable, ps.keterangan, ps.approve_edit FROM master_data_swab mds, patogen_swab ps INNER JOIN data_awal_swab das ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat AND mds.kategori = das.kategori AND pas.id_Swab = das.id_swab WHERE das.id = \'21\';
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+    SELECT DISTINCT mds.lokasi_sampling, das.tanggal_dibersihkan, ps.editable, ps.keterangan, ps.approve_edit FROM master_data_swab mds, patogen_swab ps INNER JOIN data_awal_swab das ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat AND mds.kategori = das.kategori AND pas.id_Swab = das.id_swab WHERE das.id = \'21\';
+')
+ 4 APPPATH\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('
+    SELECT DISTINCT mds.lokasi_sampling, das.tanggal_dibersihkan, ps.editable, ps.keterangan, ps.approve_edit FROM master_data_swab mds, patogen_swab ps INNER JOIN data_awal_swab das ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat AND mds.kategori = das.kategori AND pas.id_Swab = das.id_swab WHERE das.id = ?;
+', [...])
+ 5 APPPATH\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:48:11 --> Undefined array key "keterangan"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 361.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 361)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 01:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 08:48:54 --> Undefined array key "keterangan"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 361.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 361)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 02:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-05 02:01:29 --> mysqli_sql_exception: Unknown column 'ps.approve_data' in 'field list' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n     SELECT D...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n     SELECT D...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n     SELECT D...')
+#3 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('\r\n     SELECT D...', Array)
+#4 C:\xampp\htdocs\e-reportruangan\app\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+#5 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-05 02:01:29 --> Unknown column 'ps.approve_data' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+     SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.editable,
+            ps.approve_data,
+            ps.keterangan
+        FROM 
+            master_data_swab mds
+        INNER JOIN 
+            data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN 
+            patogen_swab ps 
+            ON ps.id_ppoj = das.id 
+            AND ps.lokasi_sampling = mds.lokasi_sampling
+        WHERE 
+            das.id = \'21\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+     SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.editable,
+            ps.approve_data,
+            ps.keterangan
+        FROM 
+            master_data_swab mds
+        INNER JOIN 
+            data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN 
+            patogen_swab ps 
+            ON ps.id_ppoj = das.id 
+            AND ps.lokasi_sampling = mds.lokasi_sampling
+        WHERE 
+            das.id = \'21\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+     SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.editable,
+            ps.approve_data,
+            ps.keterangan
+        FROM 
+            master_data_swab mds
+        INNER JOIN 
+            data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN 
+            patogen_swab ps 
+            ON ps.id_ppoj = das.id 
+            AND ps.lokasi_sampling = mds.lokasi_sampling
+        WHERE 
+            das.id = \'21\'')
+ 4 APPPATH\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('
+     SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.editable,
+            ps.approve_data,
+            ps.keterangan
+        FROM 
+            master_data_swab mds
+        INNER JOIN 
+            data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN 
+            patogen_swab ps 
+            ON ps.id_ppoj = das.id 
+            AND ps.lokasi_sampling = mds.lokasi_sampling
+        WHERE 
+            das.id = ?', [...])
+ 5 APPPATH\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 02:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 09:02:00 --> Undefined array key "id"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 382.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 382)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 02:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-05 02:04:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.id
+        FROM 
+            master_data_swab mds
+        INNER JOIN 
+  ...' at line 7 in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n     SELECT D...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n     SELECT D...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n     SELECT D...')
+#3 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('\r\n     SELECT D...', Array)
+#4 C:\xampp\htdocs\e-reportruangan\app\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+#5 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-05 02:04:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.id
+        FROM 
+            master_data_swab mds
+        INNER JOIN 
+  ...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+     SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.editable,
+            ps.approve_edit,
+            ps.keterangan
+            ps.id
+        FROM 
+            master_data_swab mds
+        INNER JOIN 
+            data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN 
+            patogen_swab ps 
+            ON ps.id_ppoj = das.id 
+            AND ps.lokasi_sampling = mds.lokasi_sampling
+        WHERE 
+            das.id = \'21\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+     SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.editable,
+            ps.approve_edit,
+            ps.keterangan
+            ps.id
+        FROM 
+            master_data_swab mds
+        INNER JOIN 
+            data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN 
+            patogen_swab ps 
+            ON ps.id_ppoj = das.id 
+            AND ps.lokasi_sampling = mds.lokasi_sampling
+        WHERE 
+            das.id = \'21\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+     SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.editable,
+            ps.approve_edit,
+            ps.keterangan
+            ps.id
+        FROM 
+            master_data_swab mds
+        INNER JOIN 
+            data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN 
+            patogen_swab ps 
+            ON ps.id_ppoj = das.id 
+            AND ps.lokasi_sampling = mds.lokasi_sampling
+        WHERE 
+            das.id = \'21\'')
+ 4 APPPATH\Models\PpojSwabModel.php(48): CodeIgniter\Database\BaseConnection->query('
+     SELECT DISTINCT 
+            mds.lokasi_sampling, 
+            das.tanggal_dibersihkan,
+            ps.editable,
+            ps.approve_edit,
+            ps.keterangan
+            ps.id
+        FROM 
+            master_data_swab mds
+        INNER JOIN 
+            data_awal_swab das 
+            ON mds.nama_mesin_personil_alat = das.nama_mesin_personil_alat 
+            AND mds.kategori = das.kategori
+        LEFT JOIN 
+            patogen_swab ps 
+            ON ps.id_ppoj = das.id 
+            AND ps.lokasi_sampling = mds.lokasi_sampling
+        WHERE 
+            das.id = ?', [...])
+ 5 APPPATH\Controllers\PatogenSwab.php(80): App\Models\PpojSwabModel->List_Lokasi_Sampling('21')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 02:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 09:05:00 --> Undefined array key "TAMC"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 430.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TAMC"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 430)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 02:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 09:28:52 --> Undefined array key "analis"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 371.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "analis"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 371)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 02:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 02:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 03:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 03:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 03:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 03:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 03:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 03:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 03:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 03:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 06:50:28 --> Class "App\Controllers\PpojModel" not found
+in APPPATH\Controllers\PatogenSwab.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 06:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 06:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:05:23 --> syntax error, unexpected single-quoted string "tanggal_dilakukan", expecting "]"
+in APPPATH\Controllers\PatogenSwab.php on line 248.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('PatogenSwab/AddPatogen/21', 'get')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('PatogenSwab/AddPatogen/21')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('PatogenSwab/AddPatogen/21')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:07:21 --> Undefined array key "lokasi_sampling"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 112.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasi_sampling"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 112)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:08:15 --> Undefined array key "lokasi_sampling"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 112.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasi_sampling"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 112)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:11:19 --> Undefined array key "lokasi_sampling"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 118.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasi_sampling"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 118)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:11:20 --> Undefined array key "lokasi_sampling"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 118.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasi_sampling"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 118)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(84): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:14:57 --> Class "App\Controllers\PpojModel" not found
+in APPPATH\Controllers\PatogenSwab.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:15:50 --> Class "App\Controllers\PatogenModel" not found
+in APPPATH\Controllers\PatogenSwab.php on line 218.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:16:22 --> Class "App\Controllers\FileModel" not found
+in APPPATH\Controllers\PatogenSwab.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:17:39 --> Undefined array key "analis"
+in APPPATH\Controllers\PatogenSwab.php on line 234.
+ 1 APPPATH\Controllers\PatogenSwab.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "analis"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 234)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:18:05 --> Undefined array key "tql_analisa"
+in APPPATH\Controllers\PatogenSwab.php on line 235.
+ 1 APPPATH\Controllers\PatogenSwab.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tql_analisa"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:18:54 --> Undefined array key "tql_analisa"
+in APPPATH\Controllers\PatogenSwab.php on line 235.
+ 1 APPPATH\Controllers\PatogenSwab.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tql_analisa"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:18:57 --> Undefined array key "tql_analisa"
+in APPPATH\Controllers\PatogenSwab.php on line 235.
+ 1 APPPATH\Controllers\PatogenSwab.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tql_analisa"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:19:21 --> Undefined array key "tgl_analisa"
+in APPPATH\Controllers\PatogenSwab.php on line 235.
+ 1 APPPATH\Controllers\PatogenSwab.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_analisa"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:20:32 --> Undefined array key "tgl_analisa"
+in APPPATH\Controllers\PatogenSwab.php on line 235.
+ 1 APPPATH\Controllers\PatogenSwab.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_analisa"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:21:03 --> Undefined array key "nama_mesin_personil_alat"
+in APPPATH\Controllers\PatogenSwab.php on line 236.
+ 1 APPPATH\Controllers\PatogenSwab.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_mesin_personil_alat"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:22:35 --> Undefined array key "nama_mesin_personil_alat"
+in APPPATH\Controllers\PatogenSwab.php on line 236.
+ 1 APPPATH\Controllers\PatogenSwab.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_mesin_personil_alat"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:22:37 --> Undefined array key "nama_mesin_personil_alat"
+in APPPATH\Controllers\PatogenSwab.php on line 236.
+ 1 APPPATH\Controllers\PatogenSwab.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_mesin_personil_alat"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:22:39 --> Undefined array key "nama_mesin_personil_alat"
+in APPPATH\Controllers\PatogenSwab.php on line 236.
+ 1 APPPATH\Controllers\PatogenSwab.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_mesin_personil_alat"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:22:48 --> Undefined array key "nama_mesin_personil_alat"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 116.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_mesin_personil_alat"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 116)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(85): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:22:50 --> Undefined array key "nama_mesin_personil_alat"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 116.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_mesin_personil_alat"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 116)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(85): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('21')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:26:43 --> Undefined array key "nama_mesin_personil_alat"
+in APPPATH\Controllers\PatogenSwab.php on line 236.
+ 1 APPPATH\Controllers\PatogenSwab.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_mesin_personil_alat"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:27:09 --> Undefined array key "nama_mesin_personil_alat"
+in APPPATH\Controllers\PatogenSwab.php on line 236.
+ 1 APPPATH\Controllers\PatogenSwab.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_mesin_personil_alat"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:27:13 --> Undefined array key "nama_mesin_personil_alat"
+in APPPATH\Controllers\PatogenSwab.php on line 236.
+ 1 APPPATH\Controllers\PatogenSwab.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_mesin_personil_alat"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:28:08 --> Undefined array key "tanggal_dilakukan"
+in APPPATH\Controllers\PatogenSwab.php on line 250.
+ 1 APPPATH\Controllers\PatogenSwab.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_dilakukan"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 250)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:51:42 --> syntax error, unexpected identifier "id", expecting "," or ";"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 389.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 3 APPPATH\Controllers\PatogenSwab.php(85): view('AtRest/patogen_add_swab', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('22')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:52:59 --> Undefined variable $row
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 88.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 88)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(85): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('22')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:53:46 --> Undefined variable $row
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 88.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 88)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(85): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('22')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:53:48 --> Undefined variable $row
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 88.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php', 88)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(85): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('22')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 14:56:20 --> Undefined array key "tanggal_sampling"
+in APPPATH\Controllers\PatogenSwab.php on line 233.
+ 1 APPPATH\Controllers\PatogenSwab.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_sampling"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\PatogenSwab.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-05 07:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 07:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 08:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 08:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 08:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 08:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 08:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 08:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-05 08:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

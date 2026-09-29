@@ -1,0 +1,854 @@
+INFO - 2024-04-05 02:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 02:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 02:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 02:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 02:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 02:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:02:33 --> Undefined variable $List_AHU
+in APPPATH\Views\AtRest\partikel.php on line 55.
+ 1 APPPATH\Views\AtRest\partikel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $List_AHU', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/partikel', [], true)
+ 5 APPPATH\Controllers\Partikel.php(9): view('AtRest/partikel')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:04:24 --> Undefined variable $PartikelModel
+in APPPATH\Views\AtRest\partikel_detail.php on line 240.
+ 1 APPPATH\Views\AtRest\partikel_detail.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $PartikelModel', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php', 240)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/partikel_detail', [], true)
+ 5 APPPATH\Controllers\Partikel.php(51): view('AtRest/partikel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:05:58 --> Undefined array key "analis"
+in APPPATH\Views\AtRest\partikel_detail.php on line 223.
+ 1 APPPATH\Views\AtRest\partikel_detail.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "analis"', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php', 223)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/partikel_detail', [], true)
+ 5 APPPATH\Controllers\Partikel.php(51): view('AtRest/partikel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:24:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_detail.php on line 33.
+ 1 APPPATH\Views\AtRest\partikel_detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/partikel_detail', [], true)
+ 5 APPPATH\Controllers\Partikel.php(51): view('AtRest/partikel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->ViewDetail('assets', 'plugins', 'dropzone', 'dist', 'dropzone.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:24:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_detail.php on line 33.
+ 1 APPPATH\Views\AtRest\partikel_detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/partikel_detail', [], true)
+ 5 APPPATH\Controllers\Partikel.php(51): view('AtRest/partikel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->ViewDetail('assets', 'plugins', 'dropify', 'css', 'dropify.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:24:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_detail.php on line 33.
+ 1 APPPATH\Views\AtRest\partikel_detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/partikel_detail', [], true)
+ 5 APPPATH\Controllers\Partikel.php(51): view('AtRest/partikel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->ViewDetail('assets', 'plugins', 'dropzone', 'dist', 'dropzone.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:24:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_detail.php on line 33.
+ 1 APPPATH\Views\AtRest\partikel_detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/partikel_detail', [], true)
+ 5 APPPATH\Controllers\Partikel.php(51): view('AtRest/partikel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->ViewDetail('assets', 'plugins', 'dropify', 'js', 'dropify.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:24:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_detail.php on line 33.
+ 1 APPPATH\Views\AtRest\partikel_detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/partikel_detail', [], true)
+ 5 APPPATH\Controllers\Partikel.php(51): view('AtRest/partikel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->ViewDetail('assets', 'pages', 'upload.init.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:24:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_add.php on line 34.
+ 1 APPPATH\Views\AtRest\partikel_add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/Partikel_add', [], true)
+ 5 APPPATH\Controllers\Partikel.php(77): view('AtRest/Partikel_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->AddFlow('assets', 'plugins', 'dropzone', 'dist', 'dropzone.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:24:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_add.php on line 34.
+ 1 APPPATH\Views\AtRest\partikel_add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/Partikel_add', [], true)
+ 5 APPPATH\Controllers\Partikel.php(77): view('AtRest/Partikel_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->AddFlow('assets', 'plugins', 'dropify', 'css', 'dropify.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:24:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_add.php on line 34.
+ 1 APPPATH\Views\AtRest\partikel_add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/Partikel_add', [], true)
+ 5 APPPATH\Controllers\Partikel.php(77): view('AtRest/Partikel_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->AddFlow('assets', 'plugins', 'dropzone', 'dist', 'dropzone.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:24:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_add.php on line 34.
+ 1 APPPATH\Views\AtRest\partikel_add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/Partikel_add', [], true)
+ 5 APPPATH\Controllers\Partikel.php(77): view('AtRest/Partikel_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->AddFlow('assets', 'plugins', 'dropify', 'js', 'dropify.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:24:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_add.php on line 34.
+ 1 APPPATH\Views\AtRest\partikel_add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/Partikel_add', [], true)
+ 5 APPPATH\Controllers\Partikel.php(77): view('AtRest/Partikel_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->AddFlow('assets', 'pages', 'upload.init.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:26:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_add.php on line 34.
+ 1 APPPATH\Views\AtRest\partikel_add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/Partikel_add', [], true)
+ 5 APPPATH\Controllers\Partikel.php(77): view('AtRest/Partikel_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->AddFlow('assets', 'pages', 'upload.init.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:26:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_add.php on line 34.
+ 1 APPPATH\Views\AtRest\partikel_add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/Partikel_add', [], true)
+ 5 APPPATH\Controllers\Partikel.php(77): view('AtRest/Partikel_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->AddFlow('assets', 'pages', 'upload.init.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:27:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_detail.php on line 33.
+ 1 APPPATH\Views\AtRest\partikel_detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/partikel_detail', [], true)
+ 5 APPPATH\Controllers\Partikel.php(51): view('AtRest/partikel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->ViewDetail('assets', 'pages', 'upload.init.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:27:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_add.php on line 34.
+ 1 APPPATH\Views\AtRest\partikel_add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/Partikel_add', [], true)
+ 5 APPPATH\Controllers\Partikel.php(77): view('AtRest/Partikel_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->AddPartikel('assets', 'pages', 'upload.init.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:28:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_detail.php on line 33.
+ 1 APPPATH\Views\AtRest\partikel_detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/partikel_detail', [], true)
+ 5 APPPATH\Controllers\Partikel.php(51): view('AtRest/partikel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->ViewDetail('assets', 'pages', 'upload.init.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:28:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_add.php on line 34.
+ 1 APPPATH\Views\AtRest\partikel_add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/Partikel_add', [], true)
+ 5 APPPATH\Controllers\Partikel.php(77): view('AtRest/Partikel_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->AddPartikel('assets', 'pages', 'upload.init.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:28:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\AtRest\partikel_add.php on line 34.
+ 1 APPPATH\Views\AtRest\partikel_add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/Partikel_add', [], true)
+ 5 APPPATH\Controllers\Partikel.php(77): view('AtRest/Partikel_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->AddPartikel('assets', 'pages', 'upload.init.js')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:42:25 --> Class "App\Models\PartikelModel" not found
+in APPPATH\Controllers\Partikel.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->Insert()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 10:42:50 --> Undefined array key "nf"
+in APPPATH\Controllers\Partikel.php on line 99.
+ 1 APPPATH\Controllers\Partikel.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nf"', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Controllers\\Partikel.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-05 10:43:00 --> mysqli_sql_exception: Column 'keterangan' cannot be null in C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\app\Controllers\Partikel.php(121): CodeIgniter\Model->insert(Array)
+#8 C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\system\CodeIgniter.php(932): App\Controllers\Partikel->Insert()
+#9 C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+#10 C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\pwryuwan\Pictures\New Project MI7\e-report v3\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuw...')
+#13 {main}
+CRITICAL - 2024-04-05 10:43:00 --> Column 'keterangan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `partikel_file` (`file`, `keterangan`) VALUES (\'1712288580_9bacd8fb881ff44f1079.csv\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `partikel_file` (`file`, `keterangan`) VALUES (\'1712288580_9bacd8fb881ff44f1079.csv\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `partikel_file` (`file`, `keterangan`) VALUES (\'1712288580_9bacd8fb881ff44f1079.csv\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `partikel_file` (`file`, `keterangan`) VALUES (:file:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Partikel.php(121): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->Insert()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 10:44:18 --> Could not move file "php7B62.tmp" to "Partikel/File/". Reason: 
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 149.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php7B62.tmp', 'Partikel/File/', '')
+ 2 APPPATH\Controllers\Partikel.php(123): CodeIgniter\HTTP\Files\UploadedFile->move('Partikel/File/', 'C:\\xampp\\tmp\\php7B62.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->Insert()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:52:12 --> Undefined variable $List_Partikel
+in APPPATH\Views\AtRest\partikel_add.php on line 273.
+ 1 APPPATH\Views\AtRest\partikel_add.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $List_Partikel', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php', 273)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/Partikel_add', [], true)
+ 5 APPPATH\Controllers\Partikel.php(81): view('AtRest/Partikel_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->AddPartikel('52')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 03:52:37 --> Undefined array key "suhu_min"
+in APPPATH\Views\AtRest\partikel_add.php on line 340.
+ 1 APPPATH\Views\AtRest\partikel_add.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "suhu_min"', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php', 340)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Views\\AtRest\\partikel_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/Partikel_add', [], true)
+ 5 APPPATH\Controllers\Partikel.php(82): view('AtRest/Partikel_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->AddPartikel('52')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 03:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 03:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 04:00:30 --> Array to string conversion
+in APPPATH\Controllers\Partikel.php on line 139.
+ 1 APPPATH\Controllers\Partikel.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Controllers\\Partikel.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->Delete('2')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 04:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 04:02:25 --> unlink(Partikel/File/flow.sql): No such file or directory
+in APPPATH\Controllers\Partikel.php on line 141.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(Partikel/File/flow.sql): No such file or directory', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Controllers\\Partikel.php', 141)
+ 2 APPPATH\Controllers\Partikel.php(141): unlink('Partikel/File/flow.sql')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->Delete('1')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 04:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 04:03:41 --> unlink(Partikel/File/flow.sql): No such file or directory
+in APPPATH\Controllers\Partikel.php on line 141.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(Partikel/File/flow.sql): No such file or directory', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Controllers\\Partikel.php', 141)
+ 2 APPPATH\Controllers\Partikel.php(141): unlink('Partikel/File/flow.sql')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->Delete('1')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+CRITICAL - 2024-04-05 04:04:01 --> unlink(Partikel/File/flow.sql): No such file or directory
+in APPPATH\Controllers\Partikel.php on line 141.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(Partikel/File/flow.sql): No such file or directory', 'C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\app\\Controllers\\Partikel.php', 141)
+ 2 APPPATH\Controllers\Partikel.php(141): unlink('Partikel/File/flow.sql')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->Delete('1')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pwryuwan\\Pictures\\New Project MI7\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 04:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 04:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-05 16:10:50 --> mysqli_sql_exception: Unknown column 'id_ppoj' in 'where clause' in C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\Users\miaro\Music\e-report v3\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\miaro\Music\e-report v3\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\miaro\Music\e-report v3\app\Views\AtRest\partikel_detail.php(219): CodeIgniter\Model->countAllResults()
+#6 C:\Users\miaro\Music\e-report v3\system\View\View.php(224): include('C:\\Users\\miaro\\...')
+#7 C:\Users\miaro\Music\e-report v3\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\Users\miaro\Music\e-report v3\system\Common.php(1180): CodeIgniter\View\View->render('AtRest/partikel...', Array, true)
+#9 C:\Users\miaro\Music\e-report v3\app\Controllers\Partikel.php(55): view('AtRest/partikel...', Array)
+#10 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(932): App\Controllers\Partikel->ViewDetail('1')
+#11 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+#12 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\miaro\Music\e-report v3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\miaro\Music\e-report v3\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\...')
+#15 {main}
+CRITICAL - 2024-04-05 16:10:50 --> Unknown column 'id_ppoj' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `partikel`
+WHERE `id_ppoj` = \'52\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `partikel`
+WHERE `id_ppoj` = \'52\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `partikel`
+WHERE `id_ppoj` = \'52\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `partikel`
+WHERE `id_ppoj` = :id_ppoj:', [...], false)
+ 5 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Views\AtRest\partikel_detail.php(219): CodeIgniter\Model->countAllResults()
+ 7 SYSTEMPATH\View\View.php(224): include('C:\\Users\\miaro\\Music\\e-report v3\\app\\Views\\AtRest\\partikel_detail.php')
+ 8 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/partikel_detail', [], true)
+10 APPPATH\Controllers\Partikel.php(55): view('AtRest/partikel_detail', [...])
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->ViewDetail('1')
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\Music\\e-report v3\\public\\index.php')
+ERROR - 2024-04-05 16:11:05 --> mysqli_sql_exception: Table 'ehm_kualifikasi_v3.data_awal_ppoj' doesn't exist in C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\miaro\Music\e-report v3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\miaro\Music\e-report v3\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\miaro\Music\e-report v3\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\Users\miaro\Music\e-report v3\app\Controllers\Partikel.php(44): CodeIgniter\BaseModel->first()
+#7 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(932): App\Controllers\Partikel->ViewDetail('1')
+#8 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+#9 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\miaro\Music\e-report v3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\miaro\Music\e-report v3\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\...')
+#12 {main}
+CRITICAL - 2024-04-05 16:11:05 --> Table 'ehm_kualifikasi_v3.data_awal_ppoj' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `data_awal_ppoj`
+WHERE `id` = \'1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `data_awal_ppoj`
+WHERE `id` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `data_awal_ppoj`
+WHERE `id` = \'1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_awal_ppoj`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Partikel.php(44): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->ViewDetail('1')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\Music\\e-report v3\\public\\index.php')
+ERROR - 2024-04-05 16:11:15 --> mysqli_sql_exception: Table 'ehm_kualifikasi_v3.data_awal_ppoj' doesn't exist in C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\miaro\Music\e-report v3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\miaro\Music\e-report v3\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\miaro\Music\e-report v3\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\miaro\Music\e-report v3\app\Controllers\Partikel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(932): App\Controllers\Partikel->index()
+#8 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+#9 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\miaro\Music\e-report v3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\miaro\Music\e-report v3\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\...')
+#12 {main}
+CRITICAL - 2024-04-05 16:11:15 --> Table 'ehm_kualifikasi_v3.data_awal_ppoj' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `data_awal_ppoj`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `data_awal_ppoj`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `data_awal_ppoj`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_awal_ppoj`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Partikel.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\Music\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 16:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-05 16:11:26 --> mysqli_sql_exception: Table 'ehm_kualifikasi_v3.data_awal_ppoj' doesn't exist in C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\miaro\Music\e-report v3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\miaro\Music\e-report v3\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\miaro\Music\e-report v3\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\miaro\Music\e-report v3\app\Controllers\Partikel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(932): App\Controllers\Partikel->index()
+#8 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+#9 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\miaro\Music\e-report v3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\miaro\Music\e-report v3\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\...')
+#12 {main}
+CRITICAL - 2024-04-05 16:11:26 --> Table 'ehm_kualifikasi_v3.data_awal_ppoj' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `data_awal_ppoj`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `data_awal_ppoj`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `data_awal_ppoj`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_awal_ppoj`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Partikel.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Partikel->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partikel))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\Music\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 16:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-05 23:33:07 --> mysqli_sql_exception: Unknown column 'kelas' in 'field list' in C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `rh...', 0)
+#1 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rh...')
+#2 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rh...')
+#3 C:\Users\miaro\Music\e-report v3\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rh...', NULL, false)
+#4 C:\Users\miaro\Music\e-report v3\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\miaro\Music\e-report v3\system\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#6 C:\Users\miaro\Music\e-report v3\system\BaseModel.php(874): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#7 C:\Users\miaro\Music\e-report v3\app\Controllers\Rh.php(68): CodeIgniter\BaseModel->insertBatch(Array)
+#8 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(932): App\Controllers\Rh->Insert()
+#9 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rh))
+#10 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\miaro\Music\e-report v3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\miaro\Music\e-report v3\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\...')
+#13 {main}
+CRITICAL - 2024-04-05 23:33:07 --> Unknown column 'kelas' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `rh` (`analis`, `id_ppoj`, `kelas`, `keterangan`, `nama_ruangan`, `no_ppoj`, `rh_max`, `rh_min`, `tanggal_dilakukan`)
+VALUES (\'miarosmeida\',\'52\',\'E\',\'TMS\',\'FFU 1\',\'AHURuang Sampling/Cikarang/FFU 1\',\'22.3\',\'20.1\',\'2024-04-05 23:33:\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rh` (`analis`, `id_ppoj`, `kelas`, `keterangan`, `nama_ruangan`, `no_ppoj`, `rh_max`, `rh_min`, `tanggal_dilakukan`)
+VALUES (\'miarosmeida\',\'52\',\'E\',\'TMS\',\'FFU 1\',\'AHURuang Sampling/Cikarang/FFU 1\',\'22.3\',\'20.1\',\'2024-04-05 23:33:\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rh` (`analis`, `id_ppoj`, `kelas`, `keterangan`, `nama_ruangan`, `no_ppoj`, `rh_max`, `rh_min`, `tanggal_dilakukan`)
+VALUES (\'miarosmeida\',\'52\',\'E\',\'TMS\',\'FFU 1\',\'AHURuang Sampling/Cikarang/FFU 1\',\'22.3\',\'20.1\',\'2024-04-05 23:33:\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rh` (`analis`, `id_ppoj`, `kelas`, `keterangan`, `nama_ruangan`, `no_ppoj`, `rh_max`, `rh_min`, `tanggal_dilakukan`)
+VALUES (\'miarosmeida\',\'52\',\'E\',\'TMS\',\'FFU 1\',\'AHURuang Sampling/Cikarang/FFU 1\',\'22.3\',\'20.1\',\'2024-04-05 23:33:\')', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 6 SYSTEMPATH\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch([...], null, 100)
+ 7 SYSTEMPATH\BaseModel.php(874): CodeIgniter\Model->doInsertBatch([...], null, 100, false)
+ 8 APPPATH\Controllers\Rh.php(68): CodeIgniter\BaseModel->insertBatch([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rh->Insert()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rh))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\Music\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 16:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-05 23:34:46 --> mysqli_sql_exception: Unknown column 'kelas' in 'field list' in C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `rh...', 0)
+#1 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rh...')
+#2 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rh...')
+#3 C:\Users\miaro\Music\e-report v3\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rh...', NULL, false)
+#4 C:\Users\miaro\Music\e-report v3\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\miaro\Music\e-report v3\system\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#6 C:\Users\miaro\Music\e-report v3\system\BaseModel.php(874): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#7 C:\Users\miaro\Music\e-report v3\app\Controllers\Rh.php(68): CodeIgniter\BaseModel->insertBatch(Array)
+#8 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(932): App\Controllers\Rh->Insert()
+#9 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rh))
+#10 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\miaro\Music\e-report v3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\miaro\Music\e-report v3\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\...')
+#13 {main}
+CRITICAL - 2024-04-05 23:34:46 --> Unknown column 'kelas' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `rh` (`analis`, `id_ppoj`, `kelas`, `keterangan`, `nama_ruangan`, `no_ppoj`, `rh_max`, `rh_min`, `tanggal_dilakukan`)
+VALUES (\'miarosmeida\',\'52\',\'E\',\'MS\',\'FFU 1\',\'AHURuang Sampling/Cikarang/FFU 1\',\'23.8\',\'20.2\',\'2024-04-05 23:34:\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rh` (`analis`, `id_ppoj`, `kelas`, `keterangan`, `nama_ruangan`, `no_ppoj`, `rh_max`, `rh_min`, `tanggal_dilakukan`)
+VALUES (\'miarosmeida\',\'52\',\'E\',\'MS\',\'FFU 1\',\'AHURuang Sampling/Cikarang/FFU 1\',\'23.8\',\'20.2\',\'2024-04-05 23:34:\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rh` (`analis`, `id_ppoj`, `kelas`, `keterangan`, `nama_ruangan`, `no_ppoj`, `rh_max`, `rh_min`, `tanggal_dilakukan`)
+VALUES (\'miarosmeida\',\'52\',\'E\',\'MS\',\'FFU 1\',\'AHURuang Sampling/Cikarang/FFU 1\',\'23.8\',\'20.2\',\'2024-04-05 23:34:\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rh` (`analis`, `id_ppoj`, `kelas`, `keterangan`, `nama_ruangan`, `no_ppoj`, `rh_max`, `rh_min`, `tanggal_dilakukan`)
+VALUES (\'miarosmeida\',\'52\',\'E\',\'MS\',\'FFU 1\',\'AHURuang Sampling/Cikarang/FFU 1\',\'23.8\',\'20.2\',\'2024-04-05 23:34:\')', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 6 SYSTEMPATH\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch([...], null, 100)
+ 7 SYSTEMPATH\BaseModel.php(874): CodeIgniter\Model->doInsertBatch([...], null, 100, false)
+ 8 APPPATH\Controllers\Rh.php(68): CodeIgniter\BaseModel->insertBatch([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rh->Insert()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rh))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\Music\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 16:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-05 23:35:20 --> mysqli_sql_exception: Unknown column 'keterangan' in 'field list' in C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\miaro\Music\e-report v3\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `rh...', 0)
+#1 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rh...')
+#2 C:\Users\miaro\Music\e-report v3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rh...')
+#3 C:\Users\miaro\Music\e-report v3\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rh...', NULL, false)
+#4 C:\Users\miaro\Music\e-report v3\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\miaro\Music\e-report v3\system\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#6 C:\Users\miaro\Music\e-report v3\system\BaseModel.php(874): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#7 C:\Users\miaro\Music\e-report v3\app\Controllers\Rh.php(68): CodeIgniter\BaseModel->insertBatch(Array)
+#8 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(932): App\Controllers\Rh->Insert()
+#9 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rh))
+#10 C:\Users\miaro\Music\e-report v3\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\miaro\Music\e-report v3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\miaro\Music\e-report v3\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\...')
+#13 {main}
+CRITICAL - 2024-04-05 23:35:20 --> Unknown column 'keterangan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `rh` (`analis`, `id_ppoj`, `kelas`, `keterangan`, `nama_ruangan`, `no_ppoj`, `rh_max`, `rh_min`, `tanggal_dilakukan`)
+VALUES (\'miarosmeida\',\'52\',\'E\',\'MS\',\'FFU 1\',\'AHURuang Sampling/Cikarang/FFU 1\',\'23.8\',\'20.2\',\'2024-04-05 23:35:\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rh` (`analis`, `id_ppoj`, `kelas`, `keterangan`, `nama_ruangan`, `no_ppoj`, `rh_max`, `rh_min`, `tanggal_dilakukan`)
+VALUES (\'miarosmeida\',\'52\',\'E\',\'MS\',\'FFU 1\',\'AHURuang Sampling/Cikarang/FFU 1\',\'23.8\',\'20.2\',\'2024-04-05 23:35:\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rh` (`analis`, `id_ppoj`, `kelas`, `keterangan`, `nama_ruangan`, `no_ppoj`, `rh_max`, `rh_min`, `tanggal_dilakukan`)
+VALUES (\'miarosmeida\',\'52\',\'E\',\'MS\',\'FFU 1\',\'AHURuang Sampling/Cikarang/FFU 1\',\'23.8\',\'20.2\',\'2024-04-05 23:35:\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rh` (`analis`, `id_ppoj`, `kelas`, `keterangan`, `nama_ruangan`, `no_ppoj`, `rh_max`, `rh_min`, `tanggal_dilakukan`)
+VALUES (\'miarosmeida\',\'52\',\'E\',\'MS\',\'FFU 1\',\'AHURuang Sampling/Cikarang/FFU 1\',\'23.8\',\'20.2\',\'2024-04-05 23:35:\')', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 6 SYSTEMPATH\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch([...], null, 100)
+ 7 SYSTEMPATH\BaseModel.php(874): CodeIgniter\Model->doInsertBatch([...], null, 100, false)
+ 8 APPPATH\Controllers\Rh.php(68): CodeIgniter\BaseModel->insertBatch([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rh->Insert()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rh))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\Music\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 16:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 23:35:43 --> Undefined array key "rmin"
+in APPPATH\Controllers\Rh.php on line 47.
+ 1 APPPATH\Controllers\Rh.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rmin"', 'C:\\Users\\miaro\\Music\\e-report v3\\app\\Controllers\\Rh.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rh->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rh))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\Music\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 16:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 23:38:30 --> Undefined array key "rmin"
+in APPPATH\Controllers\Rh.php on line 47.
+ 1 APPPATH\Controllers\Rh.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rmin"', 'C:\\Users\\miaro\\Music\\e-report v3\\app\\Controllers\\Rh.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Rh->Insert()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rh))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\Music\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 16:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 16:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-05 17:27:01 --> Undefined variable $Data_Ruangan
+in APPPATH\Views\AtRest\flow_add.php on line 321.
+ 1 APPPATH\Views\AtRest\flow_add.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Data_Ruangan', 'C:\\Users\\miaro\\Music\\e-report v3\\app\\Views\\AtRest\\flow_add.php', 321)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\miaro\\Music\\e-report v3\\app\\Views\\AtRest\\flow_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/Flow_add', [], true)
+ 5 APPPATH\Controllers\Flow.php(77): view('AtRest/Flow_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Flow->AddFlow('52')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flow))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\miaro\\Music\\e-report v3\\public\\index.php')
+INFO - 2024-04-05 17:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-05 17:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,609 @@
+INFO - 2024-04-23 00:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 00:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 00:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 00:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 00:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 00:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 00:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-23 00:35:01 --> mysqli_sql_exception: Table 'validas1_ehm_report.SUHU' doesn't exist in /home/validas1/ci4_core/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/validas1/ci4_core/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT \t\t \r\n   ...', 0)
+#1 /home/validas1/ci4_core/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \t\t \r\n   ...')
+#2 /home/validas1/ci4_core/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \t\t \r\n   ...')
+#3 /home/validas1/ci4_core/app/Models/PpojModel.php(148): CodeIgniter\Database\BaseConnection->query('SELECT \t\t \r\n   ...')
+#4 /home/validas1/ci4_core/app/Controllers/DataPpoj.php(35): App\Models\PpojModel->DataSuhuRH(' 2')
+#5 /home/validas1/ci4_core/system/CodeIgniter.php(932): App\Controllers\DataPpoj->DetailPpoj(' 2')
+#6 /home/validas1/ci4_core/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpoj))
+#7 /home/validas1/ci4_core/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/validas1/ereport.validasickr.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-23 00:35:01 --> Table 'validas1_ehm_report.SUHU' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT 		 
+        DAP.KELAS,
+        t1.ID_PPOJ,
+        t1.SUHU_MIN, 
+        t1.SUHU_MAX, 
+        t2.RH_MIN, 
+        t2.RH_MAX,
+        t3.HASIL_TPC CAPAR_TPC,
+        t3.HASIL_KK CAPAR_KK,
+        t4.HASIL_TPC MIKRO_TPC,
+        t4.HASIL_KK MIKRO_KK
+FROM 
+data_awal_ppoj DAP LEFT JOIN 
+    (select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by SUHU_MIN) as rn, 
+        SUHU_MIN, 
+        SUHU_MAX 
+      from 
+        SUHU ) t1 ON DAP.id = t1.ID_PPOJ left join 
+    ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by RH_MIN) as rn, 
+        RH_MIN, 
+        RH_MAX 
+      from RH ) t2 on t1.id_ppoj = t2.ID_PPOJ   and t1.rn = t2.rn LEFT join 
+        ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_capar ) t3 ON DAP.id = t3.id_ppoj AND t2.rn = t3.rn left JOIN
+       ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_volumetrik ) t4 ON DAP.id = t4.id_ppoj AND t3.rn = t4.rn
+      
+      WHERE 
+        DAP.id = 2;
+      ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 		 
+        DAP.KELAS,
+        t1.ID_PPOJ,
+        t1.SUHU_MIN, 
+        t1.SUHU_MAX, 
+        t2.RH_MIN, 
+        t2.RH_MAX,
+        t3.HASIL_TPC CAPAR_TPC,
+        t3.HASIL_KK CAPAR_KK,
+        t4.HASIL_TPC MIKRO_TPC,
+        t4.HASIL_KK MIKRO_KK
+FROM 
+data_awal_ppoj DAP LEFT JOIN 
+    (select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by SUHU_MIN) as rn, 
+        SUHU_MIN, 
+        SUHU_MAX 
+      from 
+        SUHU ) t1 ON DAP.id = t1.ID_PPOJ left join 
+    ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by RH_MIN) as rn, 
+        RH_MIN, 
+        RH_MAX 
+      from RH ) t2 on t1.id_ppoj = t2.ID_PPOJ   and t1.rn = t2.rn LEFT join 
+        ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_capar ) t3 ON DAP.id = t3.id_ppoj AND t2.rn = t3.rn left JOIN
+       ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_volumetrik ) t4 ON DAP.id = t4.id_ppoj AND t3.rn = t4.rn
+      
+      WHERE 
+        DAP.id = 2;
+      ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 		 
+        DAP.KELAS,
+        t1.ID_PPOJ,
+        t1.SUHU_MIN, 
+        t1.SUHU_MAX, 
+        t2.RH_MIN, 
+        t2.RH_MAX,
+        t3.HASIL_TPC CAPAR_TPC,
+        t3.HASIL_KK CAPAR_KK,
+        t4.HASIL_TPC MIKRO_TPC,
+        t4.HASIL_KK MIKRO_KK
+FROM 
+data_awal_ppoj DAP LEFT JOIN 
+    (select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by SUHU_MIN) as rn, 
+        SUHU_MIN, 
+        SUHU_MAX 
+      from 
+        SUHU ) t1 ON DAP.id = t1.ID_PPOJ left join 
+    ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by RH_MIN) as rn, 
+        RH_MIN, 
+        RH_MAX 
+      from RH ) t2 on t1.id_ppoj = t2.ID_PPOJ   and t1.rn = t2.rn LEFT join 
+        ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_capar ) t3 ON DAP.id = t3.id_ppoj AND t2.rn = t3.rn left JOIN
+       ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_volumetrik ) t4 ON DAP.id = t4.id_ppoj AND t3.rn = t4.rn
+      
+      WHERE 
+        DAP.id = 2;
+      ')
+ 4 APPPATH/Models/PpojModel.php(148): CodeIgniter\Database\BaseConnection->query('SELECT 		 
+        DAP.KELAS,
+        t1.ID_PPOJ,
+        t1.SUHU_MIN, 
+        t1.SUHU_MAX, 
+        t2.RH_MIN, 
+        t2.RH_MAX,
+        t3.HASIL_TPC CAPAR_TPC,
+        t3.HASIL_KK CAPAR_KK,
+        t4.HASIL_TPC MIKRO_TPC,
+        t4.HASIL_KK MIKRO_KK
+FROM 
+data_awal_ppoj DAP LEFT JOIN 
+    (select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by SUHU_MIN) as rn, 
+        SUHU_MIN, 
+        SUHU_MAX 
+      from 
+        SUHU ) t1 ON DAP.id = t1.ID_PPOJ left join 
+    ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by RH_MIN) as rn, 
+        RH_MIN, 
+        RH_MAX 
+      from RH ) t2 on t1.id_ppoj = t2.ID_PPOJ   and t1.rn = t2.rn LEFT join 
+        ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_capar ) t3 ON DAP.id = t3.id_ppoj AND t2.rn = t3.rn left JOIN
+       ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_volumetrik ) t4 ON DAP.id = t4.id_ppoj AND t3.rn = t4.rn
+      
+      WHERE 
+        DAP.id = 2;
+      ')
+ 5 APPPATH/Controllers/DataPpoj.php(35): App\Models\PpojModel->DataSuhuRH(' 2')
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\DataPpoj->DetailPpoj(' 2')
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpoj))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-23 01:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-23 01:52:42 --> mysqli_sql_exception: Table 'validas1_ehm_report.SUHU' doesn't exist in /home/validas1/ci4_core/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/validas1/ci4_core/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT \t\t \r\n   ...', 0)
+#1 /home/validas1/ci4_core/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \t\t \r\n   ...')
+#2 /home/validas1/ci4_core/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \t\t \r\n   ...')
+#3 /home/validas1/ci4_core/app/Models/PpojModel.php(148): CodeIgniter\Database\BaseConnection->query('SELECT \t\t \r\n   ...')
+#4 /home/validas1/ci4_core/app/Controllers/DataPpoj.php(35): App\Models\PpojModel->DataSuhuRH(' 2')
+#5 /home/validas1/ci4_core/system/CodeIgniter.php(932): App\Controllers\DataPpoj->DetailPpoj(' 2')
+#6 /home/validas1/ci4_core/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpoj))
+#7 /home/validas1/ci4_core/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/validas1/ereport.validasickr.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-23 01:52:42 --> Table 'validas1_ehm_report.SUHU' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT 		 
+        DAP.KELAS,
+        t1.ID_PPOJ,
+        t1.SUHU_MIN, 
+        t1.SUHU_MAX, 
+        t2.RH_MIN, 
+        t2.RH_MAX,
+        t3.HASIL_TPC CAPAR_TPC,
+        t3.HASIL_KK CAPAR_KK,
+        t4.HASIL_TPC MIKRO_TPC,
+        t4.HASIL_KK MIKRO_KK
+FROM 
+data_awal_ppoj DAP LEFT JOIN 
+    (select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by SUHU_MIN) as rn, 
+        SUHU_MIN, 
+        SUHU_MAX 
+      from 
+        SUHU ) t1 ON DAP.id = t1.ID_PPOJ left join 
+    ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by RH_MIN) as rn, 
+        RH_MIN, 
+        RH_MAX 
+      from RH ) t2 on t1.id_ppoj = t2.ID_PPOJ   and t1.rn = t2.rn LEFT join 
+        ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_capar ) t3 ON DAP.id = t3.id_ppoj AND t2.rn = t3.rn left JOIN
+       ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_volumetrik ) t4 ON DAP.id = t4.id_ppoj AND t3.rn = t4.rn
+      
+      WHERE 
+        DAP.id = 2;
+      ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 		 
+        DAP.KELAS,
+        t1.ID_PPOJ,
+        t1.SUHU_MIN, 
+        t1.SUHU_MAX, 
+        t2.RH_MIN, 
+        t2.RH_MAX,
+        t3.HASIL_TPC CAPAR_TPC,
+        t3.HASIL_KK CAPAR_KK,
+        t4.HASIL_TPC MIKRO_TPC,
+        t4.HASIL_KK MIKRO_KK
+FROM 
+data_awal_ppoj DAP LEFT JOIN 
+    (select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by SUHU_MIN) as rn, 
+        SUHU_MIN, 
+        SUHU_MAX 
+      from 
+        SUHU ) t1 ON DAP.id = t1.ID_PPOJ left join 
+    ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by RH_MIN) as rn, 
+        RH_MIN, 
+        RH_MAX 
+      from RH ) t2 on t1.id_ppoj = t2.ID_PPOJ   and t1.rn = t2.rn LEFT join 
+        ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_capar ) t3 ON DAP.id = t3.id_ppoj AND t2.rn = t3.rn left JOIN
+       ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_volumetrik ) t4 ON DAP.id = t4.id_ppoj AND t3.rn = t4.rn
+      
+      WHERE 
+        DAP.id = 2;
+      ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 		 
+        DAP.KELAS,
+        t1.ID_PPOJ,
+        t1.SUHU_MIN, 
+        t1.SUHU_MAX, 
+        t2.RH_MIN, 
+        t2.RH_MAX,
+        t3.HASIL_TPC CAPAR_TPC,
+        t3.HASIL_KK CAPAR_KK,
+        t4.HASIL_TPC MIKRO_TPC,
+        t4.HASIL_KK MIKRO_KK
+FROM 
+data_awal_ppoj DAP LEFT JOIN 
+    (select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by SUHU_MIN) as rn, 
+        SUHU_MIN, 
+        SUHU_MAX 
+      from 
+        SUHU ) t1 ON DAP.id = t1.ID_PPOJ left join 
+    ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by RH_MIN) as rn, 
+        RH_MIN, 
+        RH_MAX 
+      from RH ) t2 on t1.id_ppoj = t2.ID_PPOJ   and t1.rn = t2.rn LEFT join 
+        ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_capar ) t3 ON DAP.id = t3.id_ppoj AND t2.rn = t3.rn left JOIN
+       ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_volumetrik ) t4 ON DAP.id = t4.id_ppoj AND t3.rn = t4.rn
+      
+      WHERE 
+        DAP.id = 2;
+      ')
+ 4 APPPATH/Models/PpojModel.php(148): CodeIgniter\Database\BaseConnection->query('SELECT 		 
+        DAP.KELAS,
+        t1.ID_PPOJ,
+        t1.SUHU_MIN, 
+        t1.SUHU_MAX, 
+        t2.RH_MIN, 
+        t2.RH_MAX,
+        t3.HASIL_TPC CAPAR_TPC,
+        t3.HASIL_KK CAPAR_KK,
+        t4.HASIL_TPC MIKRO_TPC,
+        t4.HASIL_KK MIKRO_KK
+FROM 
+data_awal_ppoj DAP LEFT JOIN 
+    (select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by SUHU_MIN) as rn, 
+        SUHU_MIN, 
+        SUHU_MAX 
+      from 
+        SUHU ) t1 ON DAP.id = t1.ID_PPOJ left join 
+    ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by RH_MIN) as rn, 
+        RH_MIN, 
+        RH_MAX 
+      from RH ) t2 on t1.id_ppoj = t2.ID_PPOJ   and t1.rn = t2.rn LEFT join 
+        ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_capar ) t3 ON DAP.id = t3.id_ppoj AND t2.rn = t3.rn left JOIN
+       ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_volumetrik ) t4 ON DAP.id = t4.id_ppoj AND t3.rn = t4.rn
+      
+      WHERE 
+        DAP.id = 2;
+      ')
+ 5 APPPATH/Controllers/DataPpoj.php(35): App\Models\PpojModel->DataSuhuRH(' 2')
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\DataPpoj->DetailPpoj(' 2')
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpoj))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-23 03:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 03:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 05:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 05:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 05:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-23 05:39:40 --> mysqli_sql_exception: Table 'validas1_ehm_report.SUHU' doesn't exist in /home/validas1/ci4_core/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/validas1/ci4_core/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT \t\t \r\n   ...', 0)
+#1 /home/validas1/ci4_core/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \t\t \r\n   ...')
+#2 /home/validas1/ci4_core/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \t\t \r\n   ...')
+#3 /home/validas1/ci4_core/app/Models/PpojModel.php(148): CodeIgniter\Database\BaseConnection->query('SELECT \t\t \r\n   ...')
+#4 /home/validas1/ci4_core/app/Controllers/DataPpoj.php(35): App\Models\PpojModel->DataSuhuRH(' 12')
+#5 /home/validas1/ci4_core/system/CodeIgniter.php(932): App\Controllers\DataPpoj->DetailPpoj(' 12')
+#6 /home/validas1/ci4_core/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpoj))
+#7 /home/validas1/ci4_core/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/validas1/ereport.validasickr.my.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-23 05:39:40 --> Table 'validas1_ehm_report.SUHU' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT 		 
+        DAP.KELAS,
+        t1.ID_PPOJ,
+        t1.SUHU_MIN, 
+        t1.SUHU_MAX, 
+        t2.RH_MIN, 
+        t2.RH_MAX,
+        t3.HASIL_TPC CAPAR_TPC,
+        t3.HASIL_KK CAPAR_KK,
+        t4.HASIL_TPC MIKRO_TPC,
+        t4.HASIL_KK MIKRO_KK
+FROM 
+data_awal_ppoj DAP LEFT JOIN 
+    (select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by SUHU_MIN) as rn, 
+        SUHU_MIN, 
+        SUHU_MAX 
+      from 
+        SUHU ) t1 ON DAP.id = t1.ID_PPOJ left join 
+    ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by RH_MIN) as rn, 
+        RH_MIN, 
+        RH_MAX 
+      from RH ) t2 on t1.id_ppoj = t2.ID_PPOJ   and t1.rn = t2.rn LEFT join 
+        ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_capar ) t3 ON DAP.id = t3.id_ppoj AND t2.rn = t3.rn left JOIN
+       ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_volumetrik ) t4 ON DAP.id = t4.id_ppoj AND t3.rn = t4.rn
+      
+      WHERE 
+        DAP.id = 12;
+      ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 		 
+        DAP.KELAS,
+        t1.ID_PPOJ,
+        t1.SUHU_MIN, 
+        t1.SUHU_MAX, 
+        t2.RH_MIN, 
+        t2.RH_MAX,
+        t3.HASIL_TPC CAPAR_TPC,
+        t3.HASIL_KK CAPAR_KK,
+        t4.HASIL_TPC MIKRO_TPC,
+        t4.HASIL_KK MIKRO_KK
+FROM 
+data_awal_ppoj DAP LEFT JOIN 
+    (select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by SUHU_MIN) as rn, 
+        SUHU_MIN, 
+        SUHU_MAX 
+      from 
+        SUHU ) t1 ON DAP.id = t1.ID_PPOJ left join 
+    ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by RH_MIN) as rn, 
+        RH_MIN, 
+        RH_MAX 
+      from RH ) t2 on t1.id_ppoj = t2.ID_PPOJ   and t1.rn = t2.rn LEFT join 
+        ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_capar ) t3 ON DAP.id = t3.id_ppoj AND t2.rn = t3.rn left JOIN
+       ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_volumetrik ) t4 ON DAP.id = t4.id_ppoj AND t3.rn = t4.rn
+      
+      WHERE 
+        DAP.id = 12;
+      ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 		 
+        DAP.KELAS,
+        t1.ID_PPOJ,
+        t1.SUHU_MIN, 
+        t1.SUHU_MAX, 
+        t2.RH_MIN, 
+        t2.RH_MAX,
+        t3.HASIL_TPC CAPAR_TPC,
+        t3.HASIL_KK CAPAR_KK,
+        t4.HASIL_TPC MIKRO_TPC,
+        t4.HASIL_KK MIKRO_KK
+FROM 
+data_awal_ppoj DAP LEFT JOIN 
+    (select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by SUHU_MIN) as rn, 
+        SUHU_MIN, 
+        SUHU_MAX 
+      from 
+        SUHU ) t1 ON DAP.id = t1.ID_PPOJ left join 
+    ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by RH_MIN) as rn, 
+        RH_MIN, 
+        RH_MAX 
+      from RH ) t2 on t1.id_ppoj = t2.ID_PPOJ   and t1.rn = t2.rn LEFT join 
+        ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_capar ) t3 ON DAP.id = t3.id_ppoj AND t2.rn = t3.rn left JOIN
+       ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_volumetrik ) t4 ON DAP.id = t4.id_ppoj AND t3.rn = t4.rn
+      
+      WHERE 
+        DAP.id = 12;
+      ')
+ 4 APPPATH/Models/PpojModel.php(148): CodeIgniter\Database\BaseConnection->query('SELECT 		 
+        DAP.KELAS,
+        t1.ID_PPOJ,
+        t1.SUHU_MIN, 
+        t1.SUHU_MAX, 
+        t2.RH_MIN, 
+        t2.RH_MAX,
+        t3.HASIL_TPC CAPAR_TPC,
+        t3.HASIL_KK CAPAR_KK,
+        t4.HASIL_TPC MIKRO_TPC,
+        t4.HASIL_KK MIKRO_KK
+FROM 
+data_awal_ppoj DAP LEFT JOIN 
+    (select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by SUHU_MIN) as rn, 
+        SUHU_MIN, 
+        SUHU_MAX 
+      from 
+        SUHU ) t1 ON DAP.id = t1.ID_PPOJ left join 
+    ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by RH_MIN) as rn, 
+        RH_MIN, 
+        RH_MAX 
+      from RH ) t2 on t1.id_ppoj = t2.ID_PPOJ   and t1.rn = t2.rn LEFT join 
+        ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_capar ) t3 ON DAP.id = t3.id_ppoj AND t2.rn = t3.rn left JOIN
+       ( select 
+        ID_PPOJ, 
+        ROW_NUMBER() over (partition by ID_PPOJ order by HASIL_TPC) as rn, 
+        HASIL_TPC, 
+        HASIL_KK 
+      from mikro_volumetrik ) t4 ON DAP.id = t4.id_ppoj AND t3.rn = t4.rn
+      
+      WHERE 
+        DAP.id = 12;
+      ')
+ 5 APPPATH/Controllers/DataPpoj.php(35): App\Models\PpojModel->DataSuhuRH(' 12')
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\DataPpoj->DetailPpoj(' 12')
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpoj))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-23 05:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 05:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 05:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 05:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 05:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 05:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 07:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 08:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 08:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 08:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 13:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 13:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 20:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-23 21:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

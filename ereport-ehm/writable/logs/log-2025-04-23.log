@@ -1,0 +1,764 @@
+INFO - 2025-04-23 01:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 01:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 01:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 01:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-23 01:50:29 --> Error connecting to the database: mysqli_sql_exception: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'validas1_ehm_re...', 3306, '', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\e-reportruangan\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\e-reportruangan\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-23 01:50:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 01:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 01:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 01:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 01:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-23 01:51:26 --> Error connecting to the database: mysqli_sql_exception: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'validas1_ehm_re...', 3306, '', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\e-reportruangan\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\e-reportruangan\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-23 01:51:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 01:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-23 01:51:51 --> Error connecting to the database: mysqli_sql_exception: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'validas1_ehm_re...', 3306, '', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\e-reportruangan\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\e-reportruangan\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-23 01:51:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 01:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-23 01:54:19 --> Error connecting to the database: mysqli_sql_exception: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'validas1_ehm_re...', 3306, '', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\e-reportruangan\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\e-reportruangan\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-23 01:54:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 01:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-23 01:54:26 --> Error connecting to the database: mysqli_sql_exception: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'validas1_ehm_re...', 3306, '', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\e-reportruangan\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\e-reportruangan\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-23 01:54:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 01:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 01:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-23 01:54:44 --> Error connecting to the database: mysqli_sql_exception: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'validas1_ehm_re...', 3306, '', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\e-reportruangan\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\e-reportruangan\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-23 01:54:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 02:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 02:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 10:18:30 --> Undefined array key "tanggal_sampling"
+in APPPATH\Controllers\DataPpojSwab.php on line 83.
+ 1 APPPATH\Controllers\DataPpojSwab.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_sampling"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 03:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 10:19:44 --> Undefined array key "tanggal_sampling"
+in APPPATH\Controllers\DataPpojSwab.php on line 83.
+ 1 APPPATH\Controllers\DataPpojSwab.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_sampling"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 03:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 10:19:50 --> Undefined array key "tanggal_sampling"
+in APPPATH\Controllers\DataPpojSwab.php on line 83.
+ 1 APPPATH\Controllers\DataPpojSwab.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_sampling"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 03:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 03:22:59 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 202.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 202)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(245): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 03:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 03:24:10 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 202.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 202)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(245): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 03:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 03:24:12 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 202.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 202)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(245): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 03:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 03:24:14 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 202.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 202)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(245): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 03:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 03:24:17 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 202.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 202)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(245): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 03:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 03:24:24 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 202.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 202)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(245): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 03:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 03:27:35 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 202.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 202)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(245): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 03:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 03:27:39 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 202.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 202)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(245): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 03:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 03:34:51 --> Undefined array key "nama_ruangan"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 203.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ruangan"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 203)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(245): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 03:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 03:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-23 05:14:36 --> mysqli_sql_exception: Unknown column 'master_data_swab.ruangan' in 'field list' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_aw...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_aw...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_aw...')
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_aw...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(189): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\DataPpojSwab.php(238): App\Models\PpojSwabModel->List_PPOJ_ID('1')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-23 05:14:36 --> Unknown column 'master_data_swab.ruangan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = :data_awal_swab.id:', [...], false)
+ 5 APPPATH\Models\PpojSwabModel.php(189): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DataPpojSwab.php(238): App\Models\PpojSwabModel->List_PPOJ_ID('1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 05:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-23 05:16:56 --> mysqli_sql_exception: Unknown column 'master_data_swab.ruangan' in 'field list' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_aw...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_aw...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_aw...')
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_aw...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(189): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\DataPpojSwab.php(238): App\Models\PpojSwabModel->List_PPOJ_ID('1')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-23 05:16:56 --> Unknown column 'master_data_swab.ruangan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = :data_awal_swab.id:', [...], false)
+ 5 APPPATH\Models\PpojSwabModel.php(189): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DataPpojSwab.php(238): App\Models\PpojSwabModel->List_PPOJ_ID('1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 05:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-23 05:17:26 --> mysqli_sql_exception: Unknown column 'master_data_swab.ruangan' in 'field list' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_aw...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_aw...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_aw...')
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_aw...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(189): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\DataPpojSwab.php(238): App\Models\PpojSwabModel->List_PPOJ_ID('1')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-23 05:17:26 --> Unknown column 'master_data_swab.ruangan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = :data_awal_swab.id:', [...], false)
+ 5 APPPATH\Models\PpojSwabModel.php(189): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DataPpojSwab.php(238): App\Models\PpojSwabModel->List_PPOJ_ID('1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 05:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-23 05:18:43 --> mysqli_sql_exception: Unknown column 'master_data_swab.ruangan' in 'field list' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_aw...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_aw...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_aw...')
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_aw...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(189): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\DataPpojSwab.php(238): App\Models\PpojSwabModel->List_PPOJ_ID('1')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-23 05:18:43 --> Unknown column 'master_data_swab.ruangan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = :data_awal_swab.id:', [...], false)
+ 5 APPPATH\Models\PpojSwabModel.php(189): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DataPpojSwab.php(238): App\Models\PpojSwabModel->List_PPOJ_ID('1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 05:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-23 05:23:08 --> mysqli_sql_exception: Unknown column 'master_data_swab.ruangan' in 'field list' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_aw...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_aw...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_aw...')
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_aw...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(189): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\DataPpojSwab.php(238): App\Models\PpojSwabModel->List_PPOJ_ID('1')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-23 05:23:08 --> Unknown column 'master_data_swab.ruangan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_awal_swab`.*, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`, `master_data_swab`.`site` AS `master_site`, `master_data_swab`.`kelas` AS `master_kelas`
+FROM `data_awal_swab`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = :data_awal_swab.id:', [...], false)
+ 5 APPPATH\Models\PpojSwabModel.php(189): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DataPpojSwab.php(238): App\Models\PpojSwabModel->List_PPOJ_ID('1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 05:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 05:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 06:40:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\DataPpoj.php on line 119.
+ 1 APPPATH\Controllers\DataPpoj.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpoj.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpoj->Detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpoj))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 06:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 06:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 07:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 08:26:26 --> Too few arguments to function App\Controllers\DataPpojSwab::Insert_PPOJ_Swab(), 0 passed in C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\DataPpojSwab.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-23 08:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-23 08:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

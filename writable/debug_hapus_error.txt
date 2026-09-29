@@ -1,0 +1,36 @@
+===== ERROR hapus(id=5) =====
+Waktu     : 2026-07-17 06:27:27
+Pesan     : Deletes are not allowed unless they contain a "where" or "like" clause.
+File      : C:\laragon\www\ereport-ehm\system\Database\BaseBuilder.php
+Baris     : 2767
+Class     : CodeIgniter\Database\Exceptions\DatabaseException
+Stack Trace:
+#0 C:\laragon\www\ereport-ehm\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\laragon\www\ereport-ehm\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\laragon\www\ereport-ehm\app\Models\BaseModel.php(42): CodeIgniter\BaseModel->delete(NULL, false)
+#3 C:\laragon\www\ereport-ehm\app\Controllers\DataAir.php(65): App\Models\BaseModel->delete()
+#4 C:\laragon\www\ereport-ehm\system\CodeIgniter.php(932): App\Controllers\DataAir->hapus('5')
+#5 C:\laragon\www\ereport-ehm\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAir))
+#6 C:\laragon\www\ereport-ehm\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ereport-ehm\public\index.php(81): CodeIgniter\CodeIgniter->run()
+#8 {main}
+=====================================
+
+===== ERROR hapus(id=6) =====
+Waktu     : 2026-07-17 06:39:17
+Pesan     : Deletes are not allowed unless they contain a "where" or "like" clause.
+File      : C:\laragon\www\ereport-ehm\system\Database\BaseBuilder.php
+Baris     : 2767
+Class     : CodeIgniter\Database\Exceptions\DatabaseException
+Stack Trace:
+#0 C:\laragon\www\ereport-ehm\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\laragon\www\ereport-ehm\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\laragon\www\ereport-ehm\app\Models\BaseModel.php(42): CodeIgniter\BaseModel->delete(NULL, false)
+#3 C:\laragon\www\ereport-ehm\app\Controllers\DataAir.php(65): App\Models\BaseModel->delete()
+#4 C:\laragon\www\ereport-ehm\system\CodeIgniter.php(932): App\Controllers\DataAir->hapus('6')
+#5 C:\laragon\www\ereport-ehm\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAir))
+#6 C:\laragon\www\ereport-ehm\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ereport-ehm\public\index.php(81): CodeIgniter\CodeIgniter->run()
+#8 {main}
+=====================================
+

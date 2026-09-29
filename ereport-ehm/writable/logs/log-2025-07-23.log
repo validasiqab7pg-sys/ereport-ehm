@@ -1,0 +1,366 @@
+INFO - 2025-07-23 02:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-23 09:41:39 --> mysqli_sql_exception: Unknown column 'tgl_koloni' in 'field list' in C:\xampp\htdocs\ereport-ehm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ereport-ehm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\ereport-ehm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\ereport-ehm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\ereport-ehm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\ereport-ehm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ereport-ehm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ereport-ehm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ereport-ehm\app\Models\BaseModel.php(11): CodeIgniter\Model->insert(Array, true)
+#8 C:\xampp\htdocs\ereport-ehm\app\Controllers\PatogenSwab.php(256): App\Models\BaseModel->insert(Array)
+#9 C:\xampp\htdocs\ereport-ehm\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+#10 C:\xampp\htdocs\ereport-ehm\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#11 C:\xampp\htdocs\ereport-ehm\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ereport-ehm\public\index.php(81): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-07-23 09:41:39 --> Unknown column 'tgl_koloni' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `patogen_swab` (`no_ppoj`, `id_ppoj`, `id_swab`, `tanggal_sampling`, `tgl_analisa`, `tgl_koloni`, `nama_mesin_personil_alat`, `lokasi_sampling`, `TAMC`, `TYMC`, `e_coli`, `salmonella_sp`, `staphylococcus_aureus`, `pseudomonas_aeruginosa`, `shigella_sp`, `enterobacteriaceae`, `clostridia_sporogens`, `analis`, `keterangan`, `tanggal_dibersihkan`) VALUES (\'Cikarang/Personil/MAYRANDI\', \'68\', \'55\', \'2025-07-23\', \'2025-07-23\', \'2025-07-20\', \'MAYRANDI\', \'Tangan Kanan\', \'1\', \'1\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'najelaa.iskandar\', \'MS\', \'2025-07-23\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `patogen_swab` (`no_ppoj`, `id_ppoj`, `id_swab`, `tanggal_sampling`, `tgl_analisa`, `tgl_koloni`, `nama_mesin_personil_alat`, `lokasi_sampling`, `TAMC`, `TYMC`, `e_coli`, `salmonella_sp`, `staphylococcus_aureus`, `pseudomonas_aeruginosa`, `shigella_sp`, `enterobacteriaceae`, `clostridia_sporogens`, `analis`, `keterangan`, `tanggal_dibersihkan`) VALUES (\'Cikarang/Personil/MAYRANDI\', \'68\', \'55\', \'2025-07-23\', \'2025-07-23\', \'2025-07-20\', \'MAYRANDI\', \'Tangan Kanan\', \'1\', \'1\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'najelaa.iskandar\', \'MS\', \'2025-07-23\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `patogen_swab` (`no_ppoj`, `id_ppoj`, `id_swab`, `tanggal_sampling`, `tgl_analisa`, `tgl_koloni`, `nama_mesin_personil_alat`, `lokasi_sampling`, `TAMC`, `TYMC`, `e_coli`, `salmonella_sp`, `staphylococcus_aureus`, `pseudomonas_aeruginosa`, `shigella_sp`, `enterobacteriaceae`, `clostridia_sporogens`, `analis`, `keterangan`, `tanggal_dibersihkan`) VALUES (\'Cikarang/Personil/MAYRANDI\', \'68\', \'55\', \'2025-07-23\', \'2025-07-23\', \'2025-07-20\', \'MAYRANDI\', \'Tangan Kanan\', \'1\', \'1\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'najelaa.iskandar\', \'MS\', \'2025-07-23\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `patogen_swab` (`no_ppoj`, `id_ppoj`, `id_swab`, `tanggal_sampling`, `tgl_analisa`, `tgl_koloni`, `nama_mesin_personil_alat`, `lokasi_sampling`, `TAMC`, `TYMC`, `e_coli`, `salmonella_sp`, `staphylococcus_aureus`, `pseudomonas_aeruginosa`, `shigella_sp`, `enterobacteriaceae`, `clostridia_sporogens`, `analis`, `keterangan`, `tanggal_dibersihkan`) VALUES (:no_ppoj:, :id_ppoj:, :id_swab:, :tanggal_sampling:, :tgl_analisa:, :tgl_koloni:, :nama_mesin_personil_alat:, :lokasi_sampling:, :TAMC:, :TYMC:, :e_coli:, :salmonella_sp:, :staphylococcus_aureus:, :pseudomonas_aeruginosa:, :shigella_sp:, :enterobacteriaceae:, :clostridia_sporogens:, :analis:, :keterangan:, :tanggal_dibersihkan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\BaseModel.php(11): CodeIgniter\Model->insert([...], true)
+ 9 APPPATH\Controllers\PatogenSwab.php(256): App\Models\BaseModel->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-23 02:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-23 09:42:05 --> mysqli_sql_exception: Unknown column 'tgl_koloni' in 'field list' in C:\xampp\htdocs\ereport-ehm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ereport-ehm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\ereport-ehm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\ereport-ehm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\ereport-ehm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\ereport-ehm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ereport-ehm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ereport-ehm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ereport-ehm\app\Models\BaseModel.php(11): CodeIgniter\Model->insert(Array, true)
+#8 C:\xampp\htdocs\ereport-ehm\app\Controllers\PatogenSwab.php(256): App\Models\BaseModel->insert(Array)
+#9 C:\xampp\htdocs\ereport-ehm\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+#10 C:\xampp\htdocs\ereport-ehm\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#11 C:\xampp\htdocs\ereport-ehm\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ereport-ehm\public\index.php(81): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-07-23 09:42:05 --> Unknown column 'tgl_koloni' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `patogen_swab` (`no_ppoj`, `id_ppoj`, `id_swab`, `tanggal_sampling`, `tgl_analisa`, `tgl_koloni`, `nama_mesin_personil_alat`, `lokasi_sampling`, `TAMC`, `TYMC`, `e_coli`, `salmonella_sp`, `staphylococcus_aureus`, `pseudomonas_aeruginosa`, `shigella_sp`, `enterobacteriaceae`, `clostridia_sporogens`, `analis`, `keterangan`, `tanggal_dibersihkan`) VALUES (\'Cikarang/Personil/MAYRANDI\', \'68\', \'55\', \'2025-07-23\', \'2025-07-23\', \'2025-07-19\', \'MAYRANDI\', \'Tangan Kiri\', \'2\', \'2\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'najelaa.iskandar\', \'MS\', \'2025-07-23\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `patogen_swab` (`no_ppoj`, `id_ppoj`, `id_swab`, `tanggal_sampling`, `tgl_analisa`, `tgl_koloni`, `nama_mesin_personil_alat`, `lokasi_sampling`, `TAMC`, `TYMC`, `e_coli`, `salmonella_sp`, `staphylococcus_aureus`, `pseudomonas_aeruginosa`, `shigella_sp`, `enterobacteriaceae`, `clostridia_sporogens`, `analis`, `keterangan`, `tanggal_dibersihkan`) VALUES (\'Cikarang/Personil/MAYRANDI\', \'68\', \'55\', \'2025-07-23\', \'2025-07-23\', \'2025-07-19\', \'MAYRANDI\', \'Tangan Kiri\', \'2\', \'2\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'najelaa.iskandar\', \'MS\', \'2025-07-23\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `patogen_swab` (`no_ppoj`, `id_ppoj`, `id_swab`, `tanggal_sampling`, `tgl_analisa`, `tgl_koloni`, `nama_mesin_personil_alat`, `lokasi_sampling`, `TAMC`, `TYMC`, `e_coli`, `salmonella_sp`, `staphylococcus_aureus`, `pseudomonas_aeruginosa`, `shigella_sp`, `enterobacteriaceae`, `clostridia_sporogens`, `analis`, `keterangan`, `tanggal_dibersihkan`) VALUES (\'Cikarang/Personil/MAYRANDI\', \'68\', \'55\', \'2025-07-23\', \'2025-07-23\', \'2025-07-19\', \'MAYRANDI\', \'Tangan Kiri\', \'2\', \'2\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'najelaa.iskandar\', \'MS\', \'2025-07-23\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `patogen_swab` (`no_ppoj`, `id_ppoj`, `id_swab`, `tanggal_sampling`, `tgl_analisa`, `tgl_koloni`, `nama_mesin_personil_alat`, `lokasi_sampling`, `TAMC`, `TYMC`, `e_coli`, `salmonella_sp`, `staphylococcus_aureus`, `pseudomonas_aeruginosa`, `shigella_sp`, `enterobacteriaceae`, `clostridia_sporogens`, `analis`, `keterangan`, `tanggal_dibersihkan`) VALUES (:no_ppoj:, :id_ppoj:, :id_swab:, :tanggal_sampling:, :tgl_analisa:, :tgl_koloni:, :nama_mesin_personil_alat:, :lokasi_sampling:, :TAMC:, :TYMC:, :e_coli:, :salmonella_sp:, :staphylococcus_aureus:, :pseudomonas_aeruginosa:, :shigella_sp:, :enterobacteriaceae:, :clostridia_sporogens:, :analis:, :keterangan:, :tanggal_dibersihkan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\BaseModel.php(11): CodeIgniter\Model->insert([...], true)
+ 9 APPPATH\Controllers\PatogenSwab.php(256): App\Models\BaseModel->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-23 02:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-23 09:42:27 --> mysqli_sql_exception: Unknown column 'tgl_koloni' in 'field list' in C:\xampp\htdocs\ereport-ehm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ereport-ehm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\ereport-ehm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\ereport-ehm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\ereport-ehm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\ereport-ehm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ereport-ehm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ereport-ehm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ereport-ehm\app\Models\BaseModel.php(11): CodeIgniter\Model->insert(Array, true)
+#8 C:\xampp\htdocs\ereport-ehm\app\Controllers\PatogenSwab.php(256): App\Models\BaseModel->insert(Array)
+#9 C:\xampp\htdocs\ereport-ehm\system\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+#10 C:\xampp\htdocs\ereport-ehm\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+#11 C:\xampp\htdocs\ereport-ehm\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ereport-ehm\public\index.php(81): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-07-23 09:42:27 --> Unknown column 'tgl_koloni' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `patogen_swab` (`no_ppoj`, `id_ppoj`, `id_swab`, `tanggal_sampling`, `tgl_analisa`, `tgl_koloni`, `nama_mesin_personil_alat`, `lokasi_sampling`, `TAMC`, `TYMC`, `e_coli`, `salmonella_sp`, `staphylococcus_aureus`, `pseudomonas_aeruginosa`, `shigella_sp`, `enterobacteriaceae`, `clostridia_sporogens`, `analis`, `keterangan`, `tanggal_dibersihkan`) VALUES (\'Cikarang/Personil/MAYRANDI\', \'68\', \'55\', \'2025-07-23\', \'2025-07-23\', \'2025-07-19\', \'MAYRANDI\', \'Kerah baju\', \'3\', \'3\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'najelaa.iskandar\', \'MS\', \'2025-07-23\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `patogen_swab` (`no_ppoj`, `id_ppoj`, `id_swab`, `tanggal_sampling`, `tgl_analisa`, `tgl_koloni`, `nama_mesin_personil_alat`, `lokasi_sampling`, `TAMC`, `TYMC`, `e_coli`, `salmonella_sp`, `staphylococcus_aureus`, `pseudomonas_aeruginosa`, `shigella_sp`, `enterobacteriaceae`, `clostridia_sporogens`, `analis`, `keterangan`, `tanggal_dibersihkan`) VALUES (\'Cikarang/Personil/MAYRANDI\', \'68\', \'55\', \'2025-07-23\', \'2025-07-23\', \'2025-07-19\', \'MAYRANDI\', \'Kerah baju\', \'3\', \'3\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'najelaa.iskandar\', \'MS\', \'2025-07-23\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `patogen_swab` (`no_ppoj`, `id_ppoj`, `id_swab`, `tanggal_sampling`, `tgl_analisa`, `tgl_koloni`, `nama_mesin_personil_alat`, `lokasi_sampling`, `TAMC`, `TYMC`, `e_coli`, `salmonella_sp`, `staphylococcus_aureus`, `pseudomonas_aeruginosa`, `shigella_sp`, `enterobacteriaceae`, `clostridia_sporogens`, `analis`, `keterangan`, `tanggal_dibersihkan`) VALUES (\'Cikarang/Personil/MAYRANDI\', \'68\', \'55\', \'2025-07-23\', \'2025-07-23\', \'2025-07-19\', \'MAYRANDI\', \'Kerah baju\', \'3\', \'3\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'(-)\', \'najelaa.iskandar\', \'MS\', \'2025-07-23\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `patogen_swab` (`no_ppoj`, `id_ppoj`, `id_swab`, `tanggal_sampling`, `tgl_analisa`, `tgl_koloni`, `nama_mesin_personil_alat`, `lokasi_sampling`, `TAMC`, `TYMC`, `e_coli`, `salmonella_sp`, `staphylococcus_aureus`, `pseudomonas_aeruginosa`, `shigella_sp`, `enterobacteriaceae`, `clostridia_sporogens`, `analis`, `keterangan`, `tanggal_dibersihkan`) VALUES (:no_ppoj:, :id_ppoj:, :id_swab:, :tanggal_sampling:, :tgl_analisa:, :tgl_koloni:, :nama_mesin_personil_alat:, :lokasi_sampling:, :TAMC:, :TYMC:, :e_coli:, :salmonella_sp:, :staphylococcus_aureus:, :pseudomonas_aeruginosa:, :shigella_sp:, :enterobacteriaceae:, :clostridia_sporogens:, :analis:, :keterangan:, :tanggal_dibersihkan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\BaseModel.php(11): CodeIgniter\Model->insert([...], true)
+ 9 APPPATH\Controllers\PatogenSwab.php(256): App\Models\BaseModel->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->Insert()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-23 02:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 02:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 03:05:08 --> Undefined array key "tgl_analisa"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 180.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_analisa"', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php', 180)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(89): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('68')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-23 03:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 03:05:46 --> Undefined array key "tgl_analisa"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 180.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_analisa"', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php', 180)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(89): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('68')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-23 03:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 03:06:13 --> Undefined array key "tgl_analisa"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 180.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_analisa"', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php', 180)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(89): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('68')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-23 03:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 03:06:18 --> Undefined array key "tgl_analisa"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 180.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_analisa"', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php', 180)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(89): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('68')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-23 03:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 03:11:43 --> Undefined array key "tgl_analisa"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 180.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_analisa"', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php', 180)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(89): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('68')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-23 03:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 03:26:23 --> Undefined array key "tgl_analisa"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 180.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_analisa"', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php', 180)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(89): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('68')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-23 03:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 03:40:20 --> Undefined array key "tgl_koloni"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 181.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_koloni"', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php', 181)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(89): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('68')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-23 03:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 03:41:04 --> Undefined array key "e_coli"
+in APPPATH\Views\AtRest\patogen_add_swab.php on line 191.
+ 1 APPPATH\Views\AtRest\patogen_add_swab.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "e_coli"', 'C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php', 191)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ereport-ehm\\app\\Views\\AtRest\\patogen_add_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/patogen_add_swab', [], true)
+ 5 APPPATH\Controllers\PatogenSwab.php(89): view('AtRest/patogen_add_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PatogenSwab->AddPatogen('68')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatogenSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-23 03:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 03:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-23 05:02:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-23 05:03:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-23 05:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-23 05:03:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Suhu::$MasterDataModel is deprecated in APPPATH\Controllers\Suhu.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Suhu->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-23 05:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 05:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 06:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

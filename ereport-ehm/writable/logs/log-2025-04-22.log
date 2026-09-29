@@ -1,0 +1,1414 @@
+INFO - 2025-04-22 00:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 00:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 00:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 00:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-22 00:55:24 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\e-reportruangan\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-04-22 00:55:24 --> MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `user`
+WHERE `username` = \'indah.putri\'
+AND `password` = \'kimindah\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `username` = \'indah.putri\'
+AND `password` = \'kimindah\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `username` = \'indah.putri\'
+AND `password` = \'kimindah\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->Process_Login()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 00:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 00:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 01:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 01:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 01:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 01:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 01:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 01:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 01:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 01:56:46 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(234): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:19:34 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:19:36 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:19:37 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:19:41 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:19:42 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:23:24 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:32:08 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:32:09 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:32:10 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:32:10 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:32:11 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:34:05 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:34:06 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:36:29 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:36:30 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:39:44 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:39:45 --> Undefined array key "approve_1"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 66.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_1"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:41:25 --> Undefined array key "approve_2"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 120.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_2"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 120)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:44:23 --> Undefined array key "approve_2"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 120.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_2"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 120)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:44:24 --> Undefined array key "approve_2"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 120.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_2"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 120)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:45:34 --> Undefined array key "approve_2"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 120.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_2"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 120)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:45:35 --> Undefined array key "approve_2"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 120.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_2"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 120)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:45:36 --> Undefined array key "approve_2"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 120.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_2"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 120)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:45:39 --> Undefined array key "approve_2"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 120.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_2"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 120)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:47:13 --> Undefined array key "approve_3"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 139.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approve_3"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 139)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:48:44 --> Undefined array key "nama_ruangan"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ruangan"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 02:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 02:49:34 --> Undefined array key "no_ppoj"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 362.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_ppoj"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 362)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 03:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 03:00:00 --> Undefined array key "no_ppoj"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 362.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_ppoj"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 362)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 03:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 03:04:05 --> Undefined array key "no_ppoj"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 362.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_ppoj"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 362)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 03:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 03:04:09 --> Undefined array key "no_ppoj"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 362.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_ppoj"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 362)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(235): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 03:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 03:06:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\DataPpoj.php on line 119.
+ 1 APPPATH\Controllers\DataPpoj.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpoj.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpoj->Detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpoj))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 03:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 03:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 04:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 04:01:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\DataPpoj.php on line 119.
+ 1 APPPATH\Controllers\DataPpoj.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpoj.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpoj->Detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpoj))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 05:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 12:05:31 --> Undefined array key "ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 05:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 12:08:09 --> Undefined array key "ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 05:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 12:08:30 --> Undefined array key "ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 05:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:15:23 --> Undefined variable $List_PPOJ_Swab
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 352.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(352): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $List_PPOJ_Swab', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 352)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 05:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:24:42 --> Undefined array key "tanggal_dibersihkan"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 356.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(356): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_dibersihkan"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 356)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 05:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:28:22 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 05:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:43:57 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 05:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 05:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:49:59 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 05:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:50:09 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 05:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 05:54:49 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 06:09:28 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 06:17:45 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 06:17:47 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 06:18:31 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 06:18:34 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 06:19:17 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 06:19:23 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 06:19:26 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 06:19:27 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 06:33:54 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-22 06:44:05 --> mysqli_sql_exception: Unknown column 'data_awal_swab.approve_1_date' in 'field list' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_aw...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_aw...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_aw...')
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_aw...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\DataPpojSwab.php(223): App\Models\PpojSwabModel->Detail_AHU('1')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-22 06:44:05 --> Unknown column 'data_awal_swab.approve_1_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = :data_awal_swab.id:', [...], false)
+ 5 APPPATH\Models\PpojSwabModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DataPpojSwab.php(223): App\Models\PpojSwabModel->Detail_AHU('1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-22 06:44:20 --> mysqli_sql_exception: Unknown column 'data_awal_swab.approve_1_date' in 'field list' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_aw...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_aw...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_aw...')
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_aw...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\DataPpojSwab.php(223): App\Models\PpojSwabModel->Detail_AHU('1')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-22 06:44:20 --> Unknown column 'data_awal_swab.approve_1_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = :data_awal_swab.id:', [...], false)
+ 5 APPPATH\Models\PpojSwabModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DataPpojSwab.php(223): App\Models\PpojSwabModel->Detail_AHU('1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-22 06:47:46 --> mysqli_sql_exception: Unknown column 'data_awal_swab.approve_1_date' in 'field list' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_aw...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_aw...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_aw...')
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_aw...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\DataPpojSwab.php(223): App\Models\PpojSwabModel->Detail_AHU('1')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-22 06:47:46 --> Unknown column 'data_awal_swab.approve_1_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = :data_awal_swab.id:', [...], false)
+ 5 APPPATH\Models\PpojSwabModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DataPpojSwab.php(223): App\Models\PpojSwabModel->Detail_AHU('1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-22 06:48:03 --> mysqli_sql_exception: Unknown column 'data_awal_swab.approve_1_date' in 'field list' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_aw...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_aw...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_aw...')
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_aw...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\DataPpojSwab.php(223): App\Models\PpojSwabModel->Detail_AHU('1')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-22 06:48:03 --> Unknown column 'data_awal_swab.approve_1_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = :data_awal_swab.id:', [...], false)
+ 5 APPPATH\Models\PpojSwabModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DataPpojSwab.php(223): App\Models\PpojSwabModel->Detail_AHU('1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-22 06:48:08 --> mysqli_sql_exception: Unknown column 'data_awal_swab.approve_1_date' in 'field list' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_aw...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_aw...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_aw...')
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_aw...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\DataPpojSwab.php(223): App\Models\PpojSwabModel->Detail_AHU('1')
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-22 06:48:08 --> Unknown column 'data_awal_swab.approve_1_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `data_awal_swab`.`id`, `data_awal_swab`.`id_ahu`, `data_awal_swab`.`ahu`, `data_awal_swab`.`tanggal_sampling`, `data_awal_swab`.`site`, `data_awal_swab`.`status`, `data_awal_swab`.`kelas`, `data_awal_swab`.`kategori`, `data_awal_swab`.`keterangan`, `data_awal_swab`.`nama_mesin_personil_alat`, `data_awal_swab`.`approve_1`, `data_awal_swab`.`approve_1_date`, `data_awal_swab`.`approve_2`, `data_awal_swab`.`approve_2_date`, `data_awal_swab`.`approve_3`, `data_awal_swab`.`approve_3_date`, `data_awal_swab`.`approve_4`, `data_awal_swab`.`approve_4_date`, `data_swab`.`id` AS `swab_id`, `data_swab`.`tanggal_sampling` AS `swab_tanggal_sampling`, `data_swab`.`ahu` AS `swab_ahu`, `data_swab`.`site` AS `swab_site`, `data_swab`.`kategori` AS `swab_kategori`, `data_swab`.`status` AS `swab_status`, `data_swab`.`keterangan` AS `swab_keterangan`, `data_swab`.`approve_1` AS `swab_approve_1`, `data_swab`.`approve_1_date` AS `swab_approve_1_date`, `data_swab`.`approve_2` AS `swab_approve_2`, `data_swab`.`approve_2_date` AS `swab_approve_2_date`, `data_swab`.`approve_3` AS `swab_approve_3`, `data_swab`.`approve_3_date` AS `swab_approve_3_date`, `data_swab`.`approve_4` AS `swab_approve_4`, `data_swab`.`approve_4_date` AS `swab_approve_4_date`, `master_data_swab`.`departemen`, `master_data_swab`.`ruangan` AS `nama_ruangan`
+FROM `data_awal_swab`
+LEFT JOIN `data_swab` ON `data_swab`.`ahu` = `data_awal_swab`.`ahu` AND `data_swab`.`tanggal_sampling` = `data_awal_swab`.`tanggal_sampling`
+LEFT JOIN `master_data_swab` ON `master_data_swab`.`nama_mesin_personil_alat` = `data_awal_swab`.`nama_mesin_personil_alat`
+WHERE `data_awal_swab`.`id` = :data_awal_swab.id:', [...], false)
+ 5 APPPATH\Models\PpojSwabModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DataPpojSwab.php(223): App\Models\PpojSwabModel->Detail_AHU('1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 06:49:10 --> Undefined variable $List_PPOJ
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 351.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(351): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $List_PPOJ', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 351)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 06:49:36 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 06:50:44 --> Undefined array key "departemen"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 359.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "departemen"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 359)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(244): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 06:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 06:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:03:32 --> Undefined array key "ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 07:04:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\DataPpoj.php on line 119.
+ 1 APPPATH\Controllers\DataPpoj.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpoj.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpoj->Detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpoj))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:05:46 --> Undefined array key "ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:12:27 --> Undefined array key "ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:13:09 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:14:57 --> Undefined array key "ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:16:34 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:24:08 --> Undefined array key "ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 80.
+ 1 APPPATH\Controllers\DataPpojSwab.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:24:32 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 80.
+ 1 APPPATH\Controllers\DataPpojSwab.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:24:36 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 80.
+ 1 APPPATH\Controllers\DataPpojSwab.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:27:45 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 80.
+ 1 APPPATH\Controllers\DataPpojSwab.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:27:49 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 80.
+ 1 APPPATH\Controllers\DataPpojSwab.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:29:06 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:30:51 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:31:05 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:33:41 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:33:44 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:36:05 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:39:11 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-22 07:42:20 --> Cannot use empty array elements in arrays
+in APPPATH\Controllers\DataPpojSwab.php on line 86.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-22 07:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:42:54 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:42:59 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:43:32 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:44:22 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 07:44:25 --> Undefined array key "nama_ahu"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 197.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 197)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(245): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 07:44:34 --> Undefined array key "nama_ahu"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 197.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 197)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(245): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 07:45:01 --> Undefined array key "nama_ahu"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 197.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 197)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(245): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 07:45:04 --> Undefined array key "nama_ahu"
+in APPPATH\Views\AtRest\datappoj_detail_swab.php on line 197.
+ 1 APPPATH\Views\AtRest\datappoj_detail_swab.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php', 197)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\e-reportruangan\\app\\Views\\AtRest\\datappoj_detail_swab.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AtRest/datappoj_detail_swab', [], true)
+ 5 APPPATH\Controllers\DataPpojSwab.php(245): view('AtRest/datappoj_detail_swab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->ViewDetail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:45:20 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 75.
+ 1 APPPATH\Controllers\DataPpojSwab.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:45:47 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 79.
+ 1 APPPATH\Controllers\DataPpojSwab.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:46:06 --> Undefined array key "ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 79.
+ 1 APPPATH\Controllers\DataPpojSwab.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 14:46:34 --> Undefined array key "ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 80.
+ 1 APPPATH\Controllers\DataPpojSwab.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 07:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 07:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 08:07:25 --> Undefined array key "ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 71.
+ 1 APPPATH\Controllers\DataPpojSwab.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 08:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 08:07:45 --> Undefined array key "nama_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 71.
+ 1 APPPATH\Controllers\DataPpojSwab.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 08:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 08:08:40 --> Undefined array key "ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 79.
+ 1 APPPATH\Controllers\DataPpojSwab.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 08:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-22 08:08:57 --> Undefined array key "id_ahu"
+in APPPATH\Controllers\DataPpojSwab.php on line 80.
+ 1 APPPATH\Controllers\DataPpojSwab.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_ahu"', 'C:\\xampp\\htdocs\\e-reportruangan\\app\\Controllers\\DataPpojSwab.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 08:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-22 08:09:11 --> mysqli_sql_exception: Unknown column 'nama_mesin_personil_alat' in 'field list' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\e-reportruangan\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\e-reportruangan\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(31): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\e-reportruangan\app\Controllers\DataPpojSwab.php(84): App\Models\PpojSwabModel->insertToDataSwab(Array)
+#9 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+#10 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+#11 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-04-22 08:09:11 --> Unknown column 'nama_mesin_personil_alat' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `data_swab` (`site`, `nama_mesin_personil_alat`, `tanggal_sampling`, `kategori`, `status`) VALUES (\'Cikarang\', \'RVS A\', \'2024-08-01\', \'Mesin (Bagian Dalam)\', \'On Progress\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `data_swab` (`site`, `nama_mesin_personil_alat`, `tanggal_sampling`, `kategori`, `status`) VALUES (\'Cikarang\', \'RVS A\', \'2024-08-01\', \'Mesin (Bagian Dalam)\', \'On Progress\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `data_swab` (`site`, `nama_mesin_personil_alat`, `tanggal_sampling`, `kategori`, `status`) VALUES (\'Cikarang\', \'RVS A\', \'2024-08-01\', \'Mesin (Bagian Dalam)\', \'On Progress\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_swab` (`site`, `nama_mesin_personil_alat`, `tanggal_sampling`, `kategori`, `status`) VALUES (:site:, :nama_mesin_personil_alat:, :tanggal_sampling:, :kategori:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\PpojSwabModel.php(31): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\DataPpojSwab.php(84): App\Models\PpojSwabModel->insertToDataSwab([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 08:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-22 15:18:20 --> mysqli_sql_exception: Unknown column 'nama_mesin_personil_alat' in 'field list' in C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\e-reportruangan\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\e-reportruangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\e-reportruangan\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\e-reportruangan\app\Models\PpojSwabModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\e-reportruangan\app\Controllers\DataPpojSwab.php(86): App\Models\PpojSwabModel->simpanKeDataSwab(Array)
+#6 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+#7 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+#8 C:\xampp\htdocs\e-reportruangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-reportruangan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-04-22 15:18:20 --> Unknown column 'nama_mesin_personil_alat' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `data_swab` (`site`, `nama_mesin_personil_alat`, `tanggal_dibersihkan`, `kategori`, `status`, `created_at`) VALUES (\'Cikarang\', \'RVS A\', \'2024-08-01\', \'Mesin (Bagian Dalam)\', \'On Progress\', \'2025-04-22 15:18:20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `data_swab` (`site`, `nama_mesin_personil_alat`, `tanggal_dibersihkan`, `kategori`, `status`, `created_at`) VALUES (\'Cikarang\', \'RVS A\', \'2024-08-01\', \'Mesin (Bagian Dalam)\', \'On Progress\', \'2025-04-22 15:18:20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `data_swab` (`site`, `nama_mesin_personil_alat`, `tanggal_dibersihkan`, `kategori`, `status`, `created_at`) VALUES (\'Cikarang\', \'RVS A\', \'2024-08-01\', \'Mesin (Bagian Dalam)\', \'On Progress\', \'2025-04-22 15:18:20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_swab` (`site`, `nama_mesin_personil_alat`, `tanggal_dibersihkan`, `kategori`, `status`, `created_at`) VALUES (:site:, :nama_mesin_personil_alat:, :tanggal_dibersihkan:, :kategori:, :status:, :created_at:)', [...], false)
+ 5 APPPATH\Models\PpojSwabModel.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\DataPpojSwab.php(86): App\Models\PpojSwabModel->simpanKeDataSwab([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DataPpojSwab->Insert_PPOJ_Swab()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPpojSwab))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-22 08:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-22 08:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
