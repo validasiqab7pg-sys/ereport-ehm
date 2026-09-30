@@ -6,6 +6,9 @@ use CodeIgniter\Database\Config;
 
 /**
  * Database Configuration
+ * 
+ * KONFIGURASI UNTUK PostgreSQL
+ * Updated untuk connect ke PostgreSQL database
  */
 class Database extends Config
 {
@@ -23,25 +26,32 @@ class Database extends Config
 
     /**
      * The default database connection.
+     * 
+     * DIUBAH KE PostgreSQL:
+     * - DBDriver: MySQLi → Postgre
+     * - Port: 3306 → 5432
+     * - DBCollat: utf8_general_ci → (PostgreSQL tidak perlu)
      */
     public array $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => '',
+        'username' => 'postgres',
         'password' => '',
-        'database' => '',
-        'DBDriver' => 'MySQLi',
+        'database' => 'validas1_ehm_report',
+        'DBDriver' => 'Postgre',      // ✅ DIUBAH KE PostgreSQL
         'DBPrefix' => '',
         'pConnect' => false,
         'DBDebug'  => true,
         'charset'  => 'utf8',
-        'DBCollat' => 'utf8_general_ci',
+        'DBCollat' => '',              // PostgreSQL tidak perlu collation di sini
         'swapPre'  => '',
         'encrypt'  => false,
         'compress' => false,
         'strictOn' => false,
         'failover' => [],
-        'port'     => 3306,
+        'port'     => 5432,            // ✅ PORT PostgreSQL
+        'schema'   => 'public',        // ✅ TAMBAHAN: PostgreSQL schema
+        'sslmode'  => 'prefer',        // ✅ TAMBAHAN: SSL mode
     ];
 
     /**
@@ -51,23 +61,23 @@ class Database extends Config
     public array $tests = [
         'DSN'         => '',
         'hostname'    => '127.0.0.1',
-        'username'    => '',
+        'username'    => 'postgres',
         'password'    => '',
-        'database'    => ':memory:',
-        'DBDriver'    => 'SQLite3',
-        'DBPrefix'    => 'db_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
+        'database'    => 'validas1_ehm_report_test',
+        'DBDriver'    => 'Postgre',    // ✅ UBAH KE PostgreSQL JUGA
+        'DBPrefix'    => 'db_',
         'pConnect'    => false,
         'DBDebug'     => true,
         'charset'     => 'utf8',
-        'DBCollat'    => 'utf8_general_ci',
+        'DBCollat'    => '',
         'swapPre'     => '',
         'encrypt'     => false,
         'compress'    => false,
         'strictOn'    => false,
         'failover'    => [],
-        'port'        => 3306,
-        'foreignKeys' => true,
-        'busyTimeout' => 1000,
+        'port'        => 5432,         // ✅ PostgreSQL PORT
+        'schema'      => 'public',
+        'sslmode'     => 'prefer',
     ];
 
     public function __construct()
