@@ -20,7 +20,7 @@ class App extends BaseConfig
     //public string $baseURL = 'http://ereport-ehm.test';
     // public string $baseURL = 'http://digitalization-qa.my.id/';
     //public string $baseURL = 'https://localhost/e-reportruangan/public/';
-    public string $baseURL = 'http://10.167.165.77/ereport-ehmv1/public/';
+    public string $baseURL = 'http://10.167.165.77/ereport-ehm/public/';
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
      * If you want to accept multiple Hostnames, set this.
